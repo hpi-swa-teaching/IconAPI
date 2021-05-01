@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfIconAPI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfIconAPI",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "IconAPI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"icon" ],
+	"name" : "IconMorphTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "IconAPI-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"iconName" ],
+	"name" : "IconMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }
