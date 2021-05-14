@@ -8,10 +8,9 @@
 	"instvars" : [
 		"iconID",
 		"iconSize",
-		"iconColor",
-		"iconPath" ],
-	"name" : "IconMorph",
+		"iconColor" ],
+	"name" : "PluggableIconSpec",
 	"pools" : [
 		 ],
-	"super" : "SketchMorph",
+	"super" : "PluggableWidgetSpec",
 	"type" : "normal" }
