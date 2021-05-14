@@ -7,6 +7,7 @@ baseline: spec
 			spec
 				package: 'IconAPI-Core';
 				package: 'IconAPI-Tests' with: [spec requires: #('default')];
+				package: 'IconAPI-Debugging' with: [spec requires: #('default')];
 				yourself.
 			spec
 				group: 'default' with: #('IconAPI-Core');
