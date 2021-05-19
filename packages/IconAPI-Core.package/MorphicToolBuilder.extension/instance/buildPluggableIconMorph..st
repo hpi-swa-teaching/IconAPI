@@ -6,8 +6,10 @@ buildPluggableIconMorph: aSpec
 	widget := IconMorph new
 		setIcon: aSpec iconID;
 		setIconSize: aSpec iconSize;
-		iconColor: aSpec iconColor;
 		yourself.
+		
+	aSpec iconColor ifNotNil: [widget setIconColor: aSpec iconColor].
+	aSpec iconColorInverted ifTrue: [widget invertColors].
 	
 	self setLayoutHintsFor: widget spec: aSpec.
 	parent ifNotNil: [
