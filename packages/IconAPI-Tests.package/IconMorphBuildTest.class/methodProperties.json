@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"builder" : "TF 5/19/2021 11:32",
+		"builder:" : "TF 5/19/2021 11:32",
+		"model" : "TF 5/19/2021 11:36",
+		"model:" : "TF 5/19/2021 11:36",
+		"setUp" : "TF 5/19/2021 11:36",
+		"testBuildIconMorphOfPluggableIconSpec" : "TF 5/19/2021 11:46",
+		"testPluggableIconSpec" : "TF 5/19/2021 11:46" } }

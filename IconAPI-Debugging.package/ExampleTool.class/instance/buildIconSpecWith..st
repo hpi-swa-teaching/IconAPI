@@ -3,8 +3,7 @@ buildIconSpecWith: aBuilder
 
 	^ aBuilder pluggableIconSpec new
 		model: self;
-		iconColor: Color salmon;
-		iconID: 'fingerprint';
-		iconSize: 200@200;
-		iconColorInverted: true;
+		iconColor: Color green;
+		iconID: 'favorite';
+		iconSize: 150@150;
 		yourself
