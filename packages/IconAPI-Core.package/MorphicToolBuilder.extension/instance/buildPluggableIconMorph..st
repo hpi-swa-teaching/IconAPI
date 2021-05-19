@@ -8,7 +8,9 @@ buildPluggableIconMorph: aSpec
 		setIconSize: aSpec iconSize;
 		iconColor: aSpec iconColor;
 		yourself.
-	widget center: parent position + parent extent.
+	
 	self setLayoutHintsFor: widget spec: aSpec.
-	parent ifNotNil: [self add: widget to: parent].
+	parent ifNotNil: [
+		self add: widget to: parent.
+		widget center: parent position + parent extent].
 	^ widget

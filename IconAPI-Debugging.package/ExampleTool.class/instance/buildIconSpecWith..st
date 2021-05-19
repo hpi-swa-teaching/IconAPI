@@ -5,5 +5,5 @@ buildIconSpecWith: aBuilder
 		model: self;
 		iconColor: Color green;
 		iconID: 'favorite';
-		iconSize: 100@100;
+		iconSize: 150@150;
 		yourself
