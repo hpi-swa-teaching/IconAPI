@@ -8,7 +8,8 @@
 	"instvars" : [
 		"iconID",
 		"iconSize",
-		"iconColor" ],
+		"iconColor",
+		"iconColorInverted" ],
 	"name" : "PluggableIconSpec",
 	"pools" : [
 		 ],

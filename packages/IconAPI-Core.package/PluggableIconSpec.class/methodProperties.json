@@ -5,7 +5,10 @@
 		"buildWith:" : "han 5/14/2021 11:43",
 		"iconColor" : "han 5/14/2021 11:43",
 		"iconColor:" : "han 5/14/2021 11:43",
+		"iconColorInverted" : "hw 5/18/2021 19:47",
+		"iconColorInverted:" : "hw 5/18/2021 19:48",
 		"iconID" : "han 5/14/2021 11:43",
 		"iconID:" : "han 5/14/2021 11:43",
 		"iconSize" : "han 5/14/2021 11:43",
-		"iconSize:" : "han 5/14/2021 11:43" } }
+		"iconSize:" : "han 5/14/2021 11:43",
+		"initialize" : "hw 5/18/2021 20:28" } }
