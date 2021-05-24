@@ -1,6 +1,5 @@
 accessing
 setIconSize: aPoint
 	
-	self
-		extent: aPoint;
-		iconSize: aPoint
+	self sketchMorph extent: aPoint.
+	self iconSize: aPoint

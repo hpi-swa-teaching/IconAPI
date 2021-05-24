@@ -2,4 +2,4 @@ color setting
 testColorSetting
 	
 	icon setIconColor: Color blue.
-	self assert: icon color == Color blue
+	self assert: icon sketchMorph color == Color blue

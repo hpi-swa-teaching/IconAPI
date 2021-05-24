@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"extent:" : "LH 5/24/2021 11:10",
 		"icon" : "SV 5/1/2021 13:55",
 		"icon:" : "SV 5/1/2021 13:55",
 		"iconColor" : "han 5/14/2021 11:43",
@@ -12,7 +13,14 @@
 		"iconPath:" : "han 5/14/2021 11:40",
 		"iconSize" : "han 5/14/2021 11:40",
 		"iconSize:" : "han 5/14/2021 11:41",
-		"invertColors" : "hw 5/19/2021 08:40",
-		"setIcon:" : "hw 5/18/2021 21:15",
-		"setIconColor:" : "hw 5/19/2021 13:40",
-		"setIconSize:" : "FM 5/14/2021 18:32" } }
+		"initialize" : "LH 5/24/2021 11:16",
+		"invertColors" : "LH 5/24/2021 10:13",
+		"padding" : "LH 5/24/2021 11:03",
+		"padding:" : "LH 5/24/2021 11:03",
+		"setIcon:" : "LH 5/24/2021 10:12",
+		"setIconColor:" : "LH 5/24/2021 10:12",
+		"setIconSize:" : "LH 5/24/2021 10:12",
+		"setPadding:" : "LH 5/24/2021 11:14",
+		"sketchMorph" : "LH 5/24/2021 10:12",
+		"sketchMorph:" : "LH 5/24/2021 10:12",
+		"updateLayout" : "LH 5/24/2021 11:07" } }

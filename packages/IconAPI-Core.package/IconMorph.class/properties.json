@@ -9,9 +9,11 @@
 		"iconID",
 		"iconSize",
 		"iconColor",
-		"iconPath" ],
+		"iconPath",
+		"sketchMorph",
+		"padding" ],
 	"name" : "IconMorph",
 	"pools" : [
 		 ],
-	"super" : "SketchMorph",
+	"super" : "RectangleMorph",
 	"type" : "normal" }
