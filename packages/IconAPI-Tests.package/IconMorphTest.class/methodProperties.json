@@ -4,9 +4,9 @@
 	"instance" : {
 		"icon" : "SV 5/1/2021 13:52",
 		"icon:" : "SV 5/1/2021 13:55",
-		"setUp" : "LH 5/24/2021 11:28",
+		"setUp" : "LH 5/25/2021 10:12",
 		"tearDown" : "SV 5/1/2021 13:53",
-		"testAspectRatio" : "LH 5/24/2021 11:31",
+		"testAspectRatio" : "LH 5/25/2021 10:11",
 		"testColorInverting" : "LH 5/24/2021 11:32",
 		"testColorSetting" : "LH 5/24/2021 11:32",
 		"testIconNameCanBeSet" : "TF 5/4/2021 11:35",

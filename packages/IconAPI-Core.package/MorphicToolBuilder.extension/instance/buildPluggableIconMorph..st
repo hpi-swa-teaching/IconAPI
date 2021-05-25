@@ -5,7 +5,7 @@ buildPluggableIconMorph: aSpec
 	
 	widget := IconMorph new
 		setIcon: aSpec iconID;
-		setIconSize: aSpec iconSize;
+		setAspectRatio: aSpec aspectRatio;
 		setPadding: aSpec padding;
 		yourself.
 	
@@ -16,4 +16,5 @@ buildPluggableIconMorph: aSpec
 	self setLayoutHintsFor: widget spec: aSpec.
 	parent ifNotNil: [
 		self add: widget to: parent.].
+	widget updateLayout.
 	^ widget

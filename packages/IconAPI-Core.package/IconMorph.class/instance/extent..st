@@ -3,10 +3,11 @@ extent: newExtent
 	
 	|aspectRatio heightScaled widthScaled frameWidth frameHeight|
 	
-	aspectRatio := self sketchMorph width / self sketchMorph height.
+	aspectRatio := self aspectRatio x / self aspectRatio y.
 	frameWidth := self width - (2 * self padding).
 	frameHeight := self height - (2 * self padding).
-	super extent: newExtent.
+	
+	newExtent == self extent ifFalse: [ super extent: newExtent].
 	
 	widthScaled := frameHeight * aspectRatio.
 	heightScaled := frameWidth / aspectRatio.

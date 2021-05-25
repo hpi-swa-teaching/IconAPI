@@ -2,4 +2,4 @@ running
 setUp
 
 	self icon: IconMorph new.
-	self icon setIconSize: 40@70.
+	self icon setAspectRatio: 4@7.
