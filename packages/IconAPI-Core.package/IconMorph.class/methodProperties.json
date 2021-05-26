@@ -12,7 +12,9 @@
 		"iconPath:" : "han 5/14/2021 11:40",
 		"iconSize" : "han 5/14/2021 11:40",
 		"iconSize:" : "han 5/14/2021 11:41",
-		"invertColors" : "hw 5/25/2021 22:05",
+		"invert" : "AW 5/26/2021 14:26",
+		"invertWithTransparency" : "AW 5/26/2021 14:27",
+		"invertWithoutTransparency" : "AW 5/26/2021 14:26",
 		"setIcon:" : "hw 5/18/2021 21:15",
 		"setIconColor:" : "hw 5/25/2021 22:04",
 		"setIconSize:" : "FM 5/14/2021 18:32" } }

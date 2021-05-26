@@ -9,7 +9,7 @@ buildPluggableIconMorph: aSpec
 		yourself.
 		
 	aSpec iconColor ifNotNil: [widget setIconColor: aSpec iconColor].
-	aSpec iconColorInverted ifTrue: [widget invertColors].
+	aSpec iconColorInverted ifTrue: [widget invert].
 	
 	self setLayoutHintsFor: widget spec: aSpec.
 	parent ifNotNil: [

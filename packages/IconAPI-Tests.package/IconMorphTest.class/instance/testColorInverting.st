@@ -3,5 +3,5 @@ testColorInverting
 	
 	icon setIconColor: Color white.
 	icon openInWorld.
-	icon invertColors.
+	icon invert.
 	self assert: icon form dominantColor == Color black
