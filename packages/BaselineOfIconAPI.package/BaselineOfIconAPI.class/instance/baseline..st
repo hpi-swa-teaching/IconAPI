@@ -1,7 +1,7 @@
 baseline
 baseline: spec
 	<baseline>
-  spec for: #comment do:[
+  spec for: #common do:[
     spec
         "requirements for SwaLint"
         project: 'RefactoringBrowser' with: [
@@ -37,6 +37,6 @@ baseline: spec
           spec
             requires: #('IconAPI-Core' 'SwaLint-Core' 'SwaLint-PlugIns' 'IconAPI-Debugging')].
 
-        spec
-          group: 'default' with: #('IconAPI-Core' 'IconAPI-Debugging');
-          group: 'tests' with: #('IconAPI-Tests')]
+      spec
+        group: 'default' with: #('IconAPI-Core' 'IconAPI-Debugging');
+        group: 'tests' with: #('IconAPI-Tests')].
