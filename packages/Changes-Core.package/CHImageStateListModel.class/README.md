@@ -1,1 +1,0 @@
-A CHImageStateListModel is used to interact with the changeFile. Legacy class.
