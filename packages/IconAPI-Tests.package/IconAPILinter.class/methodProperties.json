@@ -61,7 +61,6 @@
 		"testDefinesEqualButNotHash" : "hw 5/29/2021 22:19",
 		"testDoesntUseResultOfAYourselfMessage" : "hw 5/29/2021 22:19",
 		"testDoesntUseTheResultOfACollectOrSelect" : "hw 5/29/2021 22:19",
-		"testDotAfterReturnConsistency" : "hw 5/29/2021 22:19",
 		"testEmptyExceptionHandler" : "hw 5/29/2021 22:19",
 		"testExcessiveInheritanceDepth" : "hw 5/29/2021 22:19",
 		"testExcessiveNumberOfVariables" : "hw 5/29/2021 22:19",
