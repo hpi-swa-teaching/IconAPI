@@ -1,4 +1,0 @@
-building
-buttonHeight
-
-	^ 50

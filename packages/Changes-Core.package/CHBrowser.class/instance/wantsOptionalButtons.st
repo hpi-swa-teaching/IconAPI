@@ -1,4 +1,0 @@
-building
-wantsOptionalButtons
-
-	^ false
