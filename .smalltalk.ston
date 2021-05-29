@@ -9,6 +9,9 @@ SmalltalkCISpec {
     }
   ],
   #testing : {
+    #exclude : {
+      #classes : [#IconAPILinter]
+    },
     #coverage : {
       #packages : [ 'IconAPI-Core' ]
     }
