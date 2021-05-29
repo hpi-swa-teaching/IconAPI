@@ -1,0 +1,14 @@
+{
+	"category" : "IconAPI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"classes" ],
+	"name" : "IconAPILinter",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

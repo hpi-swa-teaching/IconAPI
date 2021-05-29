@@ -1,0 +1,4 @@
+destruction
+delete
+
+	SystemChangeNotifier uniqueInstance noMoreNotificationsFor: self
