@@ -8,6 +8,7 @@ SmalltalkCISpec {
       #useLatestMetacello : true
     }
   ],
+  #preloading: ['scripts/preLoading.st'],
   #testing : {
     #exclude : {
       #classes : [#IconAPILinter]
