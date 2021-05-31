@@ -8,13 +8,8 @@ SmalltalkCISpec {
       #useLatestMetacello : true
     }
   ],
-  #preloading: ['scripts/preLoading.st'],
+  #preloading : ['scripts/preLoading.st'],
   #testing : {
-    #exclude : {
-      #classes : [#IconAPILinter]
-    },
-    #coverage : {
-      #packages : [ 'IconAPI-Core' ]
-    }
+    #categories : [ 'IconAPI-Tests']
   }
 }
