@@ -1,7 +1,8 @@
 accessing
 setIcon: anID 
 
-	iconID := anID.
-	iconPath :=( FileDirectory uri: 'Icons/', anID,'.png') fullName.
-	self sketchMorph form: (PNGReadWriter formFromFileNamed: self iconPath).
-	self iconColor: self sketchMorph form dominantColor.
+	self id: anID.
+	self path: ( FileDirectory uri: 'Icons/', anID,'.png') fullName.
+	self originalForm: ((PNGReadWriter formFromFileNamed: self path) scaledToSize: 300@200).
+	self scaledForm: (PNGReadWriter formFromFileNamed: self path).
+	self updateLayout.

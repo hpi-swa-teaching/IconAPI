@@ -12,8 +12,7 @@ testBuildIconMorphOfPluggableIconSpec
 		
 	iconMorph := self builder buildPluggableIconMorph: iconSpec.
 	self assert: iconMorph aspectRatio equals: 1@1.
-	self assert: iconMorph iconColor equals: Color green.
-	self assert: iconMorph iconID equals: 'favorite'.
+	self assert: iconMorph id equals: 'favorite'.
 	
 	
 	

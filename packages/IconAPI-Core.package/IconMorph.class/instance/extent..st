@@ -1,21 +1,27 @@
 accessing
 extent: newExtent
 	
-	|aspectRatio heightScaled widthScaled frameWidth frameHeight|
+	|aspectRatio heightScaled widthScaled frameWidth frameHeight targetWidth targetHeight scaleFactor|
+	
+	super extent: newExtent.
 	
 	aspectRatio := self aspectRatio x / self aspectRatio y.
 	frameWidth := self width - (2 * self padding).
 	frameHeight := self height - (2 * self padding).
 	
-	newExtent == self extent ifFalse: [ super extent: newExtent].
-	
 	widthScaled := frameHeight * aspectRatio.
 	heightScaled := frameWidth / aspectRatio.
 	
-	widthScaled <= frameWidth
-		ifTrue: [self sketchMorph extent: widthScaled@frameHeight]
-		ifFalse: [self sketchMorph extent: frameWidth@heightScaled].
+	"widthScaled <= frameWidth
+		ifTrue: [ self scaledForm: (self originalForm scalePoint: widthScaled@frameHeight) ]
+		ifFalse: [ self scaledForm: (self originalForm scalePoint: frameWidth@heightScaled) ]."
 		
-	
-	"keep the icon centered"
-	self sketchMorph position: self center - (self sketchMorph extent // 2)
+	widthScaled <= frameWidth
+		ifTrue: [ targetWidth := widthScaled.
+				targetHeight := frameHeight]
+		ifFalse: [ targetWidth := frameWidth.
+				targetHeight := heightScaled ].
+			
+	scaleFactor := (targetWidth / self originalForm width) @ (targetHeight / self originalForm height).
+			
+	self generateScaledForm: scaleFactor

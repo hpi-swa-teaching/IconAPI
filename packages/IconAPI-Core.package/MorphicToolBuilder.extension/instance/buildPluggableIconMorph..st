@@ -9,8 +9,8 @@ buildPluggableIconMorph: aSpec
 		setPadding: aSpec padding;
 		yourself.
 	
-	aSpec iconColor ifNotNil: [widget setIconColor: aSpec iconColor].
-	aSpec iconColorInverted ifTrue: [widget invertColors].
+	"aSpec iconColor ifNotNil: [widget setIconColor: aSpec iconColor].
+	aSpec iconColorInverted ifTrue: [widget invertColors]."
 	
 	self setFrame: aSpec frame in: widget.
 	self setLayoutHintsFor: widget spec: aSpec.

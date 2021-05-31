@@ -11,6 +11,6 @@ testPluggableIconSpec
 		yourself.
 	self assert: iconSpec aspectRatio equals: 1@1.
 	self assert: iconSpec iconColor equals: Color green.
-	self assert: iconSpec iconID equals: 'favorite'.
+	self assert: iconSpec id equals: 'favorite'.
 	
 	
