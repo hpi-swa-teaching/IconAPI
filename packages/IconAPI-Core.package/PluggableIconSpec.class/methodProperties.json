@@ -2,15 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"aspectRatio" : "LH 5/25/2021 10:08",
-		"aspectRatio:" : "LH 5/25/2021 10:08",
+		"aspectRatio" : "LH 6/2/2021 14:47",
+		"aspectRatio:" : "LH 6/2/2021 14:47",
 		"buildWith:" : "han 5/14/2021 11:43",
 		"iconColor" : "han 5/14/2021 11:43",
 		"iconColor:" : "han 5/14/2021 11:43",
-		"iconColorInverted" : "hw 5/18/2021 19:47",
-		"iconColorInverted:" : "hw 5/18/2021 19:48",
-		"iconID" : "han 5/14/2021 11:43",
-		"iconID:" : "han 5/14/2021 11:43",
-		"iconSize" : "han 5/14/2021 11:43",
-		"iconSize:" : "han 5/14/2021 11:43",
-		"initialize" : "hw 5/18/2021 20:28" } }
+		"id" : "LH 6/2/2021 14:50",
+		"id:" : "LH 6/2/2021 14:50",
+		"initialize" : "LH 6/2/2021 14:50",
+		"inverted" : "LH 6/2/2021 14:50",
+		"inverted:" : "LH 6/2/2021 14:50" } }

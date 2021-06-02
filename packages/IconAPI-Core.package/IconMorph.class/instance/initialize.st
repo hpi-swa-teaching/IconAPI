@@ -2,8 +2,9 @@ accessing
 initialize
 
 	super initialize.
-	self color: Color transparent.
-	self borderColor: Color transparent.
-	self aspectRatio: 1@1.
-	self padding: 0.
-	self setIcon: 'default'.
+	self 
+		color: Color transparent;
+		borderColor: Color transparent;
+		aspectRatio: 1@1;
+		padding: 0;
+		setIcon: 'default'

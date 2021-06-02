@@ -6,11 +6,12 @@ testPluggableIconSpec
 	iconSpec := self builder pluggableIconSpec new
 		model: self model;
 		iconColor: Color green;
-		iconID: 'favorite';
+		id: 'favorite';
 		aspectRatio: 1@1;
 		yourself.
-	self assert: iconSpec aspectRatio equals: 1@1.
-	self assert: iconSpec iconColor equals: Color green.
-	self assert: iconSpec id equals: 'favorite'.
+	self 
+		assert: iconSpec aspectRatio equals: 1@1;
+		assert: iconSpec iconColor equals: Color green;
+		assert: iconSpec id equals: 'favorite'
 	
 	

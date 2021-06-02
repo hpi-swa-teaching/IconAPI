@@ -1,7 +1,7 @@
 accessing
 setIconColor: aColor
 
-	|colors|
+	| colors |
 
 	colors := self originalForm colorsUsed.
 	colors := colors reject: [:color | color isTranslucent].
