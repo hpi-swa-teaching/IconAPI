@@ -2,5 +2,5 @@ accessing
 initialize
 	
 	super initialize.
-	self iconColorInverted: false.
-	self iconColor: nil.
+	self inverted: false.
+	self iconColor: nil

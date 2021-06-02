@@ -6,10 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"iconID",
-		"iconSize",
+		"id",
 		"iconColor",
-		"iconColorInverted" ],
+		"inverted",
+		"aspectRatio" ],
 	"name" : "PluggableIconSpec",
 	"pools" : [
 		 ],

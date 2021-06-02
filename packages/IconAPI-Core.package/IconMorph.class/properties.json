@@ -6,12 +6,14 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"iconID",
-		"iconSize",
-		"iconColor",
-		"iconPath" ],
+		"id",
+		"path",
+		"padding",
+		"originalForm",
+		"scaledForm",
+		"aspectRatio" ],
 	"name" : "IconMorph",
 	"pools" : [
 		 ],
-	"super" : "SketchMorph",
+	"super" : "Morph",
 	"type" : "normal" }

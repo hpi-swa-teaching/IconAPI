@@ -1,7 +1,10 @@
 accessing
 setIcon: anID 
 
-	iconID := anID.
-	iconPath :=( FileDirectory uri: 'Icons/', anID,'.png') fullName.
-	self form: (PNGReadWriter formFromFileNamed: self iconPath).
-	self iconColor: self form dominantColor.
+	^ self
+		id: anID;
+		path: (FileDirectory uri: 'Icons/', anID,'.png') fullName;
+		originalForm: (PNGReadWriter formFromFileNamed: self path);
+		scaledForm: (PNGReadWriter formFromFileNamed: self path);
+		updateLayout;
+		yourself

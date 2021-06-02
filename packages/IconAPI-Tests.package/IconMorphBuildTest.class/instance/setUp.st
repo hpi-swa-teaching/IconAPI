@@ -1,8 +1,8 @@
 accessing
 setUp
 	
-	
-	self model: Model new.
-	self builder: ToolBuilder default.
+	self 
+		model: Model new;
+		builder: ToolBuilder default
 	
 	
