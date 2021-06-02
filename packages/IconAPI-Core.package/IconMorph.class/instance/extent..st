@@ -11,10 +11,6 @@ extent: newExtent
 	
 	widthScaled := frameHeight * aspectRatio.
 	heightScaled := frameWidth / aspectRatio.
-	
-	"widthScaled <= frameWidth
-		ifTrue: [ self scaledForm: (self originalForm scalePoint: widthScaled@frameHeight) ]
-		ifFalse: [ self scaledForm: (self originalForm scalePoint: frameWidth@heightScaled) ]."
 		
 	widthScaled <= frameWidth
 		ifTrue: [ targetWidth := widthScaled.
