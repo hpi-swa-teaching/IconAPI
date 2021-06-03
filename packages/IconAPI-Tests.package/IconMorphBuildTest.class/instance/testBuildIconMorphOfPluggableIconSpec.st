@@ -5,7 +5,7 @@ testBuildIconMorphOfPluggableIconSpec
 	
 	iconSpec := self builder pluggableIconSpec new
 		model: self model;
-		iconColor: Color green;
+		color: Color green;
 		id: 'favorite';
 		aspectRatio: 1@1;
 		yourself.

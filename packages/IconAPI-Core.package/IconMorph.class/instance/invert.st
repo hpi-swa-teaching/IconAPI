@@ -1,8 +1,8 @@
 accessing
 invert
 	
-	self form depth = 32 
+	self originalForm depth = 32 
 		ifTrue: [self invertWithTransparency]
 		ifFalse: [self invertWithoutTransparency].
-	self iconColor: self iconColor negated;
-		changed
+	self updateLayout
+	

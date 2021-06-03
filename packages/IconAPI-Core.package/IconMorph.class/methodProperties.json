@@ -4,15 +4,16 @@
 	"instance" : {
 		"aspectRatio" : "LH 5/25/2021 10:06",
 		"aspectRatio:" : "LH 5/25/2021 10:06",
+		"color:" : "TF 6/3/2021 15:46",
 		"drawOn:" : "LH 5/31/2021 14:46",
 		"extent:" : "LH 6/2/2021 14:51",
 		"generateScaledForm:" : "LH 6/2/2021 14:51",
 		"id" : "LH 6/2/2021 14:36",
 		"id:" : "LH 6/2/2021 14:36",
-		"initialize" : "LH 6/2/2021 14:41",
-		"invert" : "AW 5/26/2021 14:26",
-		"invertWithTransparency" : "AW 5/26/2021 15:02",
-		"invertWithoutTransparency" : "AW 5/26/2021 14:26",
+		"initialize" : "TF 6/3/2021 15:52",
+		"invert" : "TF 6/3/2021 15:44",
+		"invertWithTransparency" : "TF 6/3/2021 15:45",
+		"invertWithoutTransparency" : "TF 6/3/2021 15:45",
 		"originalForm" : "LH 5/31/2021 14:13",
 		"originalForm:" : "LH 5/31/2021 14:13",
 		"padding" : "LH 6/2/2021 14:38",
@@ -23,6 +24,5 @@
 		"scaledForm:" : "LH 6/2/2021 14:38",
 		"setAspectRatio:" : "LH 6/2/2021 14:42",
 		"setIcon:" : "LH 6/2/2021 14:42",
-		"setIconColor:" : "hw 5/25/2021 22:04",
 		"setPadding:" : "LH 6/2/2021 14:42",
-		"updateLayout" : "LH 5/24/2021 11:07" } }
+		"updateLayout" : "TF 6/3/2021 15:59" } }

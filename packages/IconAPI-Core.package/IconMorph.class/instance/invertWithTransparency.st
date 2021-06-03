@@ -3,7 +3,7 @@ invertWithTransparency
 	
 	|bitmap|
 	
- 	bitmap := self form bits.
+ 	bitmap := self originalForm bits.
 	1 to: bitmap size do: [:pixelIndex |
 		|value alpha red green blue|
 		value := bitmap at: pixelIndex.
