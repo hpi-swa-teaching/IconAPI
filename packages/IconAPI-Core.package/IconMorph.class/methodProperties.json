@@ -10,7 +10,9 @@
 		"id" : "LH 6/2/2021 14:36",
 		"id:" : "LH 6/2/2021 14:36",
 		"initialize" : "LH 6/2/2021 14:41",
-		"invertColors" : "LH 6/2/2021 14:51",
+		"invert" : "AW 5/26/2021 14:26",
+		"invertWithTransparency" : "AW 5/26/2021 15:02",
+		"invertWithoutTransparency" : "AW 5/26/2021 14:26",
 		"originalForm" : "LH 5/31/2021 14:13",
 		"originalForm:" : "LH 5/31/2021 14:13",
 		"padding" : "LH 6/2/2021 14:38",
@@ -21,6 +23,6 @@
 		"scaledForm:" : "LH 6/2/2021 14:38",
 		"setAspectRatio:" : "LH 6/2/2021 14:42",
 		"setIcon:" : "LH 6/2/2021 14:42",
-		"setIconColor:" : "LH 6/2/2021 14:52",
+		"setIconColor:" : "hw 5/25/2021 22:04",
 		"setPadding:" : "LH 6/2/2021 14:42",
 		"updateLayout" : "LH 5/24/2021 11:07" } }

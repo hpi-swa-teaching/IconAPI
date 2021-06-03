@@ -4,17 +4,15 @@ buildPluggableIconMorph: aSpec
 	|widget|
 	
 	widget := IconMorph new
-		setIcon: aSpec id;
-		setAspectRatio: aSpec aspectRatio;
-		setPadding: aSpec padding;
+		setIcon: aSpec iconID;
+		setIconSize: aSpec iconSize;
 		yourself.
+		
+	aSpec iconColor ifNotNil: [widget setIconColor: aSpec iconColor].
+	aSpec iconColorInverted ifTrue: [widget invert].
 	
-	"aSpec iconColor ifNotNil: [widget setIconColor: aSpec iconColor].
-	aSpec iconColorInverted ifTrue: [widget invertColors]."
-	
-	self setFrame: aSpec frame in: widget.
 	self setLayoutHintsFor: widget spec: aSpec.
 	parent ifNotNil: [
-		self add: widget to: parent.].
-	widget updateLayout.
+		self add: widget to: parent.
+		widget center: parent position + parent extent].
 	^ widget
