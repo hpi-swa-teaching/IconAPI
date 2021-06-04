@@ -7,6 +7,5 @@ initialize
 		aspectRatio: 1@1;
 		padding: 0;
 		setIcon: 'default';
-		color: Color transparent;
 		borderColor: Color transparent
 		
