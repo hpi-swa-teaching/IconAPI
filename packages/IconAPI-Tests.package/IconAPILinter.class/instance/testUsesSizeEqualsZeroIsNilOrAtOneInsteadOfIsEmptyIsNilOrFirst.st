@@ -1,4 +1,0 @@
-test-for-intention-revealing
-testUsesSizeEqualsZeroIsNilOrAtOneInsteadOfIsEmptyIsNilOrFirst
-
-	self assertAllAreZero: (self runLinterRule: #smallLintConsistencyCheck)
