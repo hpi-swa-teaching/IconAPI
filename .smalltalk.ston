@@ -4,11 +4,15 @@ SmalltalkCISpec {
       #baseline : 'IconAPI',
       #directory : 'packages',
       #platforms : [ #squeak ],
-      #load : [ 'tests' ],
+      #load : 'tests',
       #useLatestMetacello : true
     }
   ],
+  #preLoading : ['scripts/preLoading.st'],
   #testing : {
+    #exclude : {
+      #classes : [#IconAPILinter]
+    },
     #coverage : {
       #packages : [ 'IconAPI-Core' ]
     }
