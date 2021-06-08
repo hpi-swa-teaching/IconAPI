@@ -1,7 +1,7 @@
 accessing
 generateScaledForm: aPoint 
 
-	| pair validPoint|
+	|pair validPoint|
 	
 	validPoint := self clampToValidScaleFactor: aPoint.
 	self
