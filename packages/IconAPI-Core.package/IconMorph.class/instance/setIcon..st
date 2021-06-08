@@ -5,7 +5,7 @@ setIcon: anID
 	
 	path := (FileDirectory uri: 'Icons/', anID,'.png') fullName.
 
-	anID == 'default' 
+	anID = 'default' 
 		ifTrue: [
 			self originalForm: (Form fromBinaryStream:  (Base64MimeConverter mimeDecodeToBytes: (IconMorph default readStream))).
 			self scaledForm: (Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: (IconMorph default readStream)))] 
