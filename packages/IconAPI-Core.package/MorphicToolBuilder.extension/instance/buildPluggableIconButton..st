@@ -1,15 +1,18 @@
 *IconAPI-Core
-buildPluggableIconMorph: aSpec
+buildPluggableIconButton: aSpec
 
-	|widget|
+	|widget iconMorph|
 	
-	widget := IconMorph new
+	widget := IconButton new
+		actionSelector: aSpec action;
+		yourself.
+	iconMorph := widget iconMorph
 		setIcon: aSpec id;
 		setAspectRatio: aSpec aspectRatio;
 		setPadding: aSpec padding;
 		yourself.
 		
-	aSpec inverted ifTrue: [widget invert].
+	aSpec inverted ifTrue: [iconMorph invert].
 	
 	self setFrame: aSpec frame in: widget.
 	self setLayoutHintsFor: widget spec: aSpec.
