@@ -7,7 +7,8 @@
 		"setUp" : "LH 6/2/2021 14:45",
 		"tearDown" : "LH 6/2/2021 14:45",
 		"testAspectRatio" : "LH 6/2/2021 14:46",
-		"testColorInverting" : "TF 6/3/2021 15:46",
+		"testCaching" : "LH 6/8/2021 18:38",
+		"testColorInverting" : "LH 6/8/2021 18:30",
 		"testColorSetting" : "TF 6/3/2021 15:46",
 		"testIconNameCanBeSet" : "LH 6/2/2021 14:46",
 		"testPadding" : "LH 6/2/2021 14:47" } }
