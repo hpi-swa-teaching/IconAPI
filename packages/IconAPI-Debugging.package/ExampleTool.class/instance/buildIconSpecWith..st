@@ -7,5 +7,5 @@ buildIconSpecWith: aBuilder
 		frame: (0.5@0 corner: 1@1);
 		aspectRatio: 1@1;
 		padding: 0;
-		color: #iconColor;
+		iconColor: Color green;
 		yourself

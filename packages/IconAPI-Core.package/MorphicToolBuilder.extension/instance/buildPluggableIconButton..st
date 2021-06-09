@@ -5,14 +5,10 @@ buildPluggableIconButton: aSpec
 	
 	widget := IconButton new
 		actionSelector: aSpec action;
-		yourself.
-	iconMorph := widget iconMorph
-		setIcon: aSpec id;
-		setAspectRatio: aSpec aspectRatio;
-		setPadding: aSpec padding;
+		target: aSpec target;
 		yourself.
 		
-	aSpec inverted ifTrue: [iconMorph invert].
+	iconMorph := self buildPluggableIconMorph: aSpec.
 	
 	self setFrame: aSpec frame in: widget.
 	self setLayoutHintsFor: widget spec: aSpec.

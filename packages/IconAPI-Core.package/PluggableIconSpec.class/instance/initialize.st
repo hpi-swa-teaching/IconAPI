@@ -3,4 +3,5 @@ initialize
 	
 	super initialize.
 	self inverted: false.
-	self iconColor: nil
+	self iconColor: Color black.
+	self color: Color transparent
