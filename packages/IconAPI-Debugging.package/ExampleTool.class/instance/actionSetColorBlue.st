@@ -3,4 +3,4 @@ actionSetColorBlue
 
 	self iconColor: Color blue.
 	Transcript show: ' action'.
-	self changed: #actionSetColorBlue.
+	self changed: #actionSetColorBlue
