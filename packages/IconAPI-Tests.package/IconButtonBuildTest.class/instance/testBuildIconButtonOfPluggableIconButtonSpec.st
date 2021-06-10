@@ -1,7 +1,7 @@
 as yet unclassified
 testBuildIconButtonOfPluggableIconButtonSpec
 	
-	| iconButtonSpec iconMorph iconButton |
+	|iconButtonSpec iconMorph iconButton|
 	
 	iconButtonSpec := self builder pluggableIconButtonSpec new
 		model: self model;
@@ -16,5 +16,5 @@ testBuildIconButtonOfPluggableIconButtonSpec
 	self 
 		assert: iconMorph aspectRatio equals: 1@1;
 		assert: iconMorph id equals: 'default';
-		assert: iconMorph iconColor equals: Color green.
+		assert: iconMorph iconColor equals: Color green
 	
