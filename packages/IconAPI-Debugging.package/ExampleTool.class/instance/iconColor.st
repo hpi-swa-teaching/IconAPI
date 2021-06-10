@@ -1,4 +1,4 @@
 as yet unclassified
 iconColor
 
-	^ iconColor.
+	^ iconColor
