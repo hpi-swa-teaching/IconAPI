@@ -16,5 +16,4 @@ buildPluggableIconMorph: aSpec
 	self setLayoutHintsFor: widget spec: aSpec.
 	parent ifNotNil: [self add: widget to: parent].
 	
-	
 	^ widget
