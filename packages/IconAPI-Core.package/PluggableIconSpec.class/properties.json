@@ -1,0 +1,17 @@
+{
+	"category" : "IconAPI-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"id",
+		"iconColor",
+		"inverted",
+		"aspectRatio" ],
+	"name" : "PluggableIconSpec",
+	"pools" : [
+		 ],
+	"super" : "PluggableWidgetSpec",
+	"type" : "normal" }

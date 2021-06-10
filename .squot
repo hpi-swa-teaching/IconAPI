@@ -1,5 +1,6 @@
 OrderedDictionary {
 	'packages/IconAPI-Core.package' : #SquotCypressCodeSerializer,
 	'packages/IconAPI-Tests.package' : #SquotCypressCodeSerializer,
-	'packages/BaselineOfIconAPI.package' : #SquotCypressCodeSerializer
+	'packages/BaselineOfIconAPI.package' : #SquotCypressCodeSerializer,
+	'packages/IconAPI-Debugging.package' : #SquotCypressCodeSerializer
 }

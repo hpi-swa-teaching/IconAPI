@@ -1,0 +1,15 @@
+{
+	"category" : "IconAPI-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"action",
+		"target" ],
+	"name" : "PluggableIconButtonSpec",
+	"pools" : [
+		 ],
+	"super" : "PluggableIconSpec",
+	"type" : "normal" }

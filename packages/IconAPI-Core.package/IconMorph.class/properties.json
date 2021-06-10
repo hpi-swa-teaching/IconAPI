@@ -6,7 +6,13 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"iconName" ],
+		"id",
+		"path",
+		"padding",
+		"originalForm",
+		"scaledForm",
+		"aspectRatio",
+		"iconColor" ],
 	"name" : "IconMorph",
 	"pools" : [
 		 ],

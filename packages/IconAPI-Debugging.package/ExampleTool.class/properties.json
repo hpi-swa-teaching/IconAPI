@@ -1,0 +1,14 @@
+{
+	"category" : "IconAPI-Debugging",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"iconColor" ],
+	"name" : "ExampleTool",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }
