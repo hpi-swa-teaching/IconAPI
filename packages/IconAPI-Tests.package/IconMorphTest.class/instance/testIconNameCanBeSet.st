@@ -1,5 +1,5 @@
 tests
 testIconNameCanBeSet
 
-	self icon id: 'check'.
-	self assert: self icon id equals: 'check'
+	self icon icon: 'check'.
+	self assert: self icon icon equals: 'check'.

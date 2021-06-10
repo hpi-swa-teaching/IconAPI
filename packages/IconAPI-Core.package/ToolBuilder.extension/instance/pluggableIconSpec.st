@@ -1,4 +1,0 @@
-*IconAPI-Core
-pluggableIconSpec
-
-	^ PluggableIconSpec

@@ -1,4 +1,4 @@
 running
 tearDown
 
-	self icon: nil
+	self icon: nil.
