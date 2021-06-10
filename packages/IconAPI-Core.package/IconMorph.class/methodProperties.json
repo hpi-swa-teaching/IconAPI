@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"default" : "TF 6/4/2021 14:48",
+		"defaultIconColor" : "han 6/10/2021 12:08",
 		"minimumScaleFactor" : "han 6/8/2021 15:20" },
 	"instance" : {
 		"aspectRatio" : "LH 5/25/2021 10:06",
@@ -11,6 +12,7 @@
 		"colorWithoutTransparency:" : "LH 6/8/2021 17:39",
 		"drawOn:" : "LH 5/31/2021 14:46",
 		"extent:" : "LH 6/2/2021 14:51",
+		"iconColor:" : "han 6/10/2021 12:07",
 		"generateScaledForm:" : "LH 6/8/2021 17:36",
 		"id" : "LH 6/2/2021 14:36",
 		"id:" : "LH 6/2/2021 14:36",

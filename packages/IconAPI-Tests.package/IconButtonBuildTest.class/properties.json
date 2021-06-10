@@ -1,14 +1,15 @@
 {
-	"category" : "IconAPI-Debugging",
+	"category" : "IconAPI-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"iconColor" ],
-	"name" : "ExampleTool",
+		"builder",
+		"model" ],
+	"name" : "IconButtonBuildTest",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "TestCase",
 	"type" : "normal" }

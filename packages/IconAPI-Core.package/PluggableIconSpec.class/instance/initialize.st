@@ -2,5 +2,8 @@ accessing
 initialize
 	
 	super initialize.
-	self inverted: false.
-	self iconColor: nil
+	
+	self 
+		inverted: false;
+		iconColor: IconMorph defaultIconColor;
+		color: Color transparent
