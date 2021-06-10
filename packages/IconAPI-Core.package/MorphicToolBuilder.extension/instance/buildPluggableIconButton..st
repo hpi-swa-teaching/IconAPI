@@ -18,9 +18,7 @@ buildPluggableIconButton: aSpec
 		
 	self setFrame: aSpec frame in: widget.
 	self setLayoutHintsFor: widget spec: aSpec.
-	parent ifNotNil: [
-		self add: widget to: parent].
+	parent ifNotNil: [self add: widget to: parent].
 	widget updateLayout.
-
 
 	 ^ widget
