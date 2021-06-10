@@ -1,13 +1,13 @@
 {
 	"class" : {
-		 },
+		"testImage" : "han 6/10/2021 12:16" },
 	"instance" : {
 		"icon" : "SV 5/1/2021 13:52",
 		"icon:" : "SV 5/1/2021 13:55",
-		"setUp" : "LH 6/2/2021 14:45",
+		"setUp" : "han 6/10/2021 12:18",
 		"tearDown" : "LH 6/2/2021 14:45",
 		"testAspectRatio" : "LH 6/2/2021 14:46",
-		"testColorInverting" : "han 6/9/2021 12:00",
-		"testColorSetting" : "han 6/9/2021 12:00",
+		"testColorInverting" : "han 6/10/2021 12:13",
+		"testColorSetting" : "han 6/10/2021 12:12",
 		"testIconNameCanBeSet" : "LH 6/2/2021 14:46",
 		"testPadding" : "LH 6/2/2021 14:47" } }

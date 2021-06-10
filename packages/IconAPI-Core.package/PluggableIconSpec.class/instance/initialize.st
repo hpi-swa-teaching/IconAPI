@@ -3,5 +3,5 @@ initialize
 	
 	super initialize.
 	self inverted: false.
-	self iconColor: Color black.
+	self iconColor: IconMorph defaultIconColor.
 	self color: Color transparent

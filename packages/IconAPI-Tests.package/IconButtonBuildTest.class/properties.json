@@ -1,0 +1,15 @@
+{
+	"category" : "IconAPI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"builder",
+		"model" ],
+	"name" : "IconButtonBuildTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

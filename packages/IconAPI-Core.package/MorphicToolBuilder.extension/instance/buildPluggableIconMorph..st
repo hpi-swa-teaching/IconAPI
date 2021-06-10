@@ -12,11 +12,9 @@ buildPluggableIconMorph: aSpec
 		yourself.
 		
 	aSpec inverted ifTrue: [widget invert].
-	
 	self setFrame: aSpec frame in: widget.
 	self setLayoutHintsFor: widget spec: aSpec.
-	parent ifNotNil: [
-		self add: widget to: parent].
-	widget updateLayout.
-
+	parent ifNotNil: [self add: widget to: parent].
+	
+	
 	^ widget

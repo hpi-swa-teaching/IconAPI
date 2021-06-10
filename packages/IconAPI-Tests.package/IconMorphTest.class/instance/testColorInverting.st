@@ -5,4 +5,4 @@ testColorInverting
 	
 	icon iconColor: Color white.
 	icon invert.
-	"self assert: icon scaledForm dominantColor = Color black"
+	self assert: icon scaledForm dominantColor = Color black
