@@ -1,4 +1,4 @@
 as yet unclassified
 defaultIconColor	
 
-	^ Color black.
+	^ Color black
