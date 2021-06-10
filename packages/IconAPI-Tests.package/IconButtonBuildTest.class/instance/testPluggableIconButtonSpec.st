@@ -1,7 +1,7 @@
 as yet unclassified
 testPluggableIconButtonSpec
 	
-	| iconButtonSpec |
+	|iconButtonSpec|
 	
 	iconButtonSpec := self builder pluggableIconButtonSpec new
 		model: self model;
