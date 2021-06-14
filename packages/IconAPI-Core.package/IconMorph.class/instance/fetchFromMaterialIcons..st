@@ -11,7 +11,5 @@ fetchFromMaterialIcons: anIcon
 	a readFrom: gzip.
 	a extractAllTo: directory.
 	
-	self extract: anIcon from: directory.
-	
-	
+	self extract: anIcon from: directory
 	
