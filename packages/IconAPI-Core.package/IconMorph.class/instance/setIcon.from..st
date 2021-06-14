@@ -1,7 +1,7 @@
 accessing
 setIcon: anID from: aDirectory
 
-	| path |
+	|path|
 	
 	path := (FileDirectory uri: aDirectory,'\', anID, '.png') fullName.
 
