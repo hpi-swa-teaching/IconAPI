@@ -1,4 +1,4 @@
 as yet unclassified
 setUp
 	
-	self icon: IconMorph new.
+	self icon: IconMorph new
