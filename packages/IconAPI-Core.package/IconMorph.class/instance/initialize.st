@@ -8,4 +8,3 @@ initialize
 		padding: 0;
 		setIcon: 'default';
 		borderColor: Color transparent
-		
