@@ -11,7 +11,8 @@
 		"padding",
 		"originalForm",
 		"scaledForm",
-		"aspectRatio" ],
+		"aspectRatio",
+		"iconColor" ],
 	"name" : "IconMorph",
 	"pools" : [
 		 ],
