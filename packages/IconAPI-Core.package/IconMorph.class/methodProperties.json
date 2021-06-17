@@ -1,11 +1,12 @@
 {
 	"class" : {
 		"default" : "TF 6/4/2021 14:48",
-		"default2" : "FM 6/10/2021 18:24",
+		"default2" : "FM 6/15/2021 17:50",
 		"minimumScaleFactor" : "han 6/8/2021 15:20" },
 	"instance" : {
 		"aspectRatio" : "LH 5/25/2021 10:06",
 		"aspectRatio:" : "LH 5/25/2021 10:06",
+		"calculateAspectRatio" : "FM 6/15/2021 17:25",
 		"clampToValidScaleFactor:" : "han 6/8/2021 15:23",
 		"color:" : "LH 6/8/2021 17:29",
 		"colorWithTransparency:" : "LH 6/8/2021 17:39",
@@ -15,8 +16,9 @@
 		"extent:" : "LH 6/2/2021 14:51",
 		"extract:from:" : "LH 6/8/2021 19:19",
 		"fetch:fromLibrary:" : "FM 6/9/2021 13:31",
-		"fetchFromMaterialIcons:" : "FM 6/9/2021 14:53",
+		"fetchFromMaterialIcons:" : "FM 6/15/2021 17:52",
 		"generateScaledForm:" : "han 6/8/2021 15:24",
+		"greatestCommonDivisor:" : "FM 6/15/2021 17:27",
 		"id" : "LH 6/2/2021 14:36",
 		"id:" : "LH 6/2/2021 14:36",
 		"initialize" : "FM 6/10/2021 18:16",
@@ -32,7 +34,7 @@
 		"scaledForm" : "LH 6/2/2021 14:38",
 		"scaledForm:" : "LH 6/2/2021 14:38",
 		"setAspectRatio:" : "LH 6/2/2021 14:42",
-		"setIcon:" : "FM 6/10/2021 18:20",
-		"setIcon:from:" : "FM 6/9/2021 14:17",
+		"setIcon:" : "FM 6/15/2021 17:54",
+		"setIcon:from:" : "FM 6/15/2021 17:55",
 		"setPadding:" : "LH 6/2/2021 14:42",
-		"updateLayout" : "TF 6/3/2021 15:59" } }
+		"updateLayout" : "FM 6/15/2021 16:54" } }

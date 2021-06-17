@@ -16,5 +16,6 @@ setIcon: anID from: aDirectory
 	^ self
 		id: anID;
 		path: path;
+		setAspectRatio: self calculateAspectRatio;
 		updateLayout;
 		yourself
