@@ -3,7 +3,7 @@ setIcon: anID from: aDirectory
 
 	|path|
 	
-	path := (FileDirectory uri: aDirectory,'\', anID, '.png') fullName.
+	path := ((FileDirectory uri: aDirectory) / (anID, '.png')) fullName.
 
 	anID = 'default' 
 		ifTrue: [
