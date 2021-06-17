@@ -3,7 +3,7 @@ fetchFromMaterialIcons: anIcon
 
 	|gzip a directory|
 	
-	directory := FileDirectory uri: 'Icons/MaterialIcons'.
+	directory := (FileDirectory uri: 'Icons')/'MaterialIcons'.
 	(self exists: anIcon in: directory) ifTrue: [^ self].		
 
 	gzip := HTTPSocket httpGet: 'https://fonts.gstatic.com/s/i/materialicons/', anIcon, '/v1/black-24dp.zip'.

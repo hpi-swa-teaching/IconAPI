@@ -1,9 +1,9 @@
 accessing
-setIcon: anID from: aDirectory
+setIcon: anID from: aFileDirectory
 
 	|path|
 	
-	path := ((FileDirectory uri: aDirectory) / (anID, '.png')) fullName.
+	path := (aFileDirectory / (anID, '.png')) fullName.
 
 	anID = 'default' 
 		ifTrue: [
