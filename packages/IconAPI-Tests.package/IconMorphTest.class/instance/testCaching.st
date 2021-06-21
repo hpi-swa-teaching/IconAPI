@@ -10,7 +10,7 @@ testCaching
 	self assert: (directory directoryExists: 'MaterialIcons').
 	
 	icon setIcon: 'favorite_border'.
-	directory := directory directoryNamed: 'materialicons'.
+	directory := directory directoryNamed: 'MaterialIcons'.
 	self assert: (directory fileExists: 'favorite_border','.png')
 	
 
