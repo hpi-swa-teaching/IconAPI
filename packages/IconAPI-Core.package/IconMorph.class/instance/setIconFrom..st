@@ -1,5 +1,5 @@
 accessing
-setIconFromForm: aForm 
+setIconFrom: aForm 
 
 	self originalForm: aForm.
 	self scaledForm: aForm.

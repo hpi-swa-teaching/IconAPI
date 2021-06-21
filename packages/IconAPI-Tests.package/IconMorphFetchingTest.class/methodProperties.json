@@ -1,8 +1,0 @@
-{
-	"class" : {
-		"testImageBase64" : "TF 6/17/2021 11:32" },
-	"instance" : {
-		"icon" : "FM 6/9/2021 13:47",
-		"icon:" : "FM 6/9/2021 13:47",
-		"setUp" : "FM 6/9/2021 13:47",
-		"testFetchIconById" : "hw 6/21/2021 15:06" } }

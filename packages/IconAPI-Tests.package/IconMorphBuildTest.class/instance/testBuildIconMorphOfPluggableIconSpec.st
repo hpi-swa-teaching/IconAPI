@@ -1,7 +1,7 @@
 accessing
 testBuildIconMorphOfPluggableIconSpec
 	
-	| iconSpec iconMorph |
+	|iconSpec iconMorph|
 	
 	iconSpec := self builder pluggableIconSpec new
 		model: self model;
