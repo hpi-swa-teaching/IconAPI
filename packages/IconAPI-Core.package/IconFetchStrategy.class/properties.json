@@ -6,14 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"padding",
-		"originalForm",
-		"scaledForm",
-		"aspectRatio",
-		"iconColor",
-		"fetcher" ],
-	"name" : "IconMorph",
+		 ],
+	"name" : "IconFetchStrategy",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "Object",
 	"type" : "normal" }

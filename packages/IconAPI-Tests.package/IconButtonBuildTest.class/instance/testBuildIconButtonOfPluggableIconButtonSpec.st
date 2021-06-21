@@ -15,6 +15,5 @@ testBuildIconButtonOfPluggableIconButtonSpec
 	iconMorph := iconButton iconMorph.
 	self 
 		assert: iconMorph aspectRatio equals: 1@1;
-		assert: iconMorph id equals: 'default';
 		assert: iconMorph iconColor equals: Color green
 	
