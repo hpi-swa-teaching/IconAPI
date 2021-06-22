@@ -1,4 +1,4 @@
 as yet unclassified
 directory
 
-	^(FileDirectory uri: 'Icons') / 'MaterialIcons'
+	^ (FileDirectory uri: 'Icons') / 'MaterialIcons'
