@@ -1,4 +1,4 @@
 as yet unclassified
 urlPrefix
 
-	^ 'https://fonts.gstatic.com/s/i/materialicons/'
+	^ 'https://fonts.gstatic.com/s/i/materialiconsoutlined/'
