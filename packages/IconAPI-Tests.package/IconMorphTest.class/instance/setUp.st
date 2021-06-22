@@ -1,7 +1,7 @@
 running
 setUp
 
-	self icon: IconMorph new.
+	self icon: IconMorph new
 	
 	
 	
