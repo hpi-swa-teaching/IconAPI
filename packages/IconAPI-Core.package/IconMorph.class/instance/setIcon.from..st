@@ -8,8 +8,8 @@ setIcon: anID from: aFileDirectory
 
 	anID = 'default' 
 		ifTrue: [
-			self originalForm: (Form fromBinaryStream:  (Base64MimeConverter mimeDecodeToBytes: (IconMorph default readStream))).
-			self scaledForm: (Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: (IconMorph default readStream)))] 
+			self originalForm: (Form fromBinaryStream:  (Base64MimeConverter mimeDecodeToBytes: IconMorph default readStream)).
+			self scaledForm: (Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: IconMorph default readStream))] 
 		ifFalse: [
 			self originalForm: (PNGReadWriter formFromFileNamed: path).
 			self scaledForm: (PNGReadWriter formFromFileNamed: path)].
