@@ -1,16 +1,17 @@
 {
 	"class" : {
 		"aspectTestImage" : "hw 6/17/2021 11:58",
-		"testImage" : "han 6/10/2021 12:16" },
+		"testImage" : "han 6/10/2021 12:16",
+		"testImageBase64" : "hw 6/21/2021 17:18" },
 	"instance" : {
 		"icon" : "SV 5/1/2021 13:52",
 		"icon:" : "SV 5/1/2021 13:55",
-		"setUp" : "hw 6/17/2021 11:48",
+		"setUp" : "hw 6/21/2021 17:06",
 		"tearDown" : "LH 6/2/2021 14:45",
-		"testAspectRatio" : "LH 6/2/2021 14:46",
-		"testAspectRatio2" : "hw 6/17/2021 12:15",
-		"testCaching" : "LH 6/8/2021 18:38",
-		"testColorInverting" : "hw 6/17/2021 12:00",
-		"testColorSetting" : "hw 6/17/2021 11:59",
-		"testIconNameCanBeSet" : "LH 6/2/2021 14:46",
+		"testAspectRatio" : "hw 6/21/2021 17:06",
+		"testAspectRatio2" : "hw 6/21/2021 17:05",
+		"testCaching" : "hw 6/23/2021 14:36",
+		"testColorInverting" : "hw 6/21/2021 17:11",
+		"testColorSetting" : "hw 6/21/2021 17:12",
+		"testFetchIconById" : "hw 6/23/2021 14:29",
 		"testPadding" : "LH 6/2/2021 14:47" } }
