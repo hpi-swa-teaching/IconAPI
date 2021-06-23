@@ -1,4 +1,6 @@
 as yet unclassified
 directory
 
-	^(FileDirectory uri: 'Icons') / 'MaterialIcons'
+	self useOutlined
+		ifTrue: [^(FileDirectory uri: 'Icons') / 'MaterialIconsOutlined']
+		ifFalse:  [^(FileDirectory uri: 'Icons') / 'MaterialIcons']
