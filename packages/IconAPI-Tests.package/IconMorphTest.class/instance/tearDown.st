@@ -1,4 +1,4 @@
-accessing
+running
 tearDown
 
 	self icon: nil
