@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 buildWith: builder
 
 	^ builder buildPluggableIconButton: self

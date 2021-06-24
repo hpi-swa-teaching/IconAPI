@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 extent: newExtent
 
         super extent: newExtent.

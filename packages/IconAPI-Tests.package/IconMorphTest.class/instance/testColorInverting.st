@@ -1,4 +1,4 @@
-color setting
+testing
 testColorInverting
 	
 	"main color kann auch translucent sein, geht dann kaputt"

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 actionSetColorBlue
 
 	self iconColor: Color blue.

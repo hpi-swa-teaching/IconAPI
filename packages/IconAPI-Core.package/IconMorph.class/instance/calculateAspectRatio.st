@@ -1,4 +1,4 @@
-as yet unclassified
+helper methods
 calculateAspectRatio
 
 	|gcd|

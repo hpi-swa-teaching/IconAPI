@@ -1,4 +1,4 @@
-tests
+testing
 testIconNameCanBeSet
 
 	self icon id: 'check'.

@@ -1,13 +1,13 @@
 accessing
 extract: anIcon from: aDirectory
 	
-	|subdirectories pic|
+	|subdirectories picture|
 	
 	subdirectories := aDirectory directoryEntries.
-	pic := subdirectories last asFileDirectory fileEntries last.
-	pic copyTo: aDirectory.
-	subdirectories do: [:subdir | subdir asFileDirectory recursiveDelete].
-	aDirectory rename: pic name toBe: anIcon,'.png'
+	picture := subdirectories last asFileDirectory fileEntries last.
+	picture copyTo: aDirectory.
+	subdirectories do: [:subdirectory | subdirectory asFileDirectory recursiveDelete].
+	aDirectory rename: picture name toBe: anIcon,'.png'
 	
 	
 	

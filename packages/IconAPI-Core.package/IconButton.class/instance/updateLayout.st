@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 updateLayout
 
 	self extent: self extent;
