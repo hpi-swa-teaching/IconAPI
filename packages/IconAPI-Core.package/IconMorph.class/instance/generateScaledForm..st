@@ -1,4 +1,4 @@
-accessing
+helper methods
 generateScaledForm: aPoint 
 
 	|pair validPoint|

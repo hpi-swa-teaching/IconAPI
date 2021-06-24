@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testAspectRatio2
 	
 	self icon setIconFrom: (Form fromBinaryStream:  (Base64MimeConverter mimeDecodeToBytes: (IconMorphTest aspectTestImage readStream))).
