@@ -1,4 +1,4 @@
 test-for-miscellaneous
-brokenTestInconsistentMethodClassification
+dontTestInconsistentMethodClassification
 	"broken in githubCI"
 	self assertAllAreZero: (self runLinterRule: #smallLintInconsistentMethodClassification)
