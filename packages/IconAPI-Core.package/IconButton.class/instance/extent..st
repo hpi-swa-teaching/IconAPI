@@ -1,4 +1,4 @@
-accessing
+geometry
 extent: newExtent
 
         super extent: newExtent.
