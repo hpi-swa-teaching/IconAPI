@@ -1,14 +1,14 @@
 {
-	"category" : "IconAPI-Tests",
+	"category" : "IconAPI-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"icon" ],
-	"name" : "IconMorphFetchingTest",
+		"useOutlined" ],
+	"name" : "MaterialIconsFetcher",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "HTTPIconFetcher",
 	"type" : "normal" }

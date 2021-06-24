@@ -1,4 +1,7 @@
 accessing
 setIcon: anID 
 
-	self setIcon: anID from: (FileDirectory uri: 'Icons').
+	anID = 'default' 
+		ifTrue: [self setIconFrom: (Form fromBinaryStream:  (Base64MimeConverter mimeDecodeToBytes: (IconMorph default readStream)))] 
+		ifFalse: [self setIconFrom: (self fetcher getIconForm: anID)]
+	

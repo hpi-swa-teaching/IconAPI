@@ -1,5 +1,5 @@
-accessing
-extract: anIcon from: aDirectory
+as yet unclassified
+extract: anID from: aDirectory
 	
 	|subdirectories picture|
 	

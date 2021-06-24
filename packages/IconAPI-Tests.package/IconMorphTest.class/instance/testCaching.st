@@ -1,15 +1,17 @@
 testing
 testCaching
 	
-	|directory|
+	|directory icon|
 	
 	directory := FileDirectory uri: 'Icons'.
-	(directory directoryExists: 'materialicons') ifTrue: [(directory directoryNamed: 'materialicons') recursiveDelete].
+	(directory directoryExists: 'MaterialIconsOutlined') ifTrue: [(directory directoryNamed: 'MaterialIconsOutlined') recursiveDelete].
 	
-	icon fetch: 'favorite_border' fromLibrary: 'materialicons'.
-	self assert: (directory directoryExists: 'materialicons').
+	icon := IconMorph newWith: MaterialIconsFetcher new.
 	
-	directory := directory directoryNamed: 'materialicons'.
+	self assert: (directory directoryExists: 'MaterialIconsOutlined').
+	
+	icon setIcon: 'favorite_border'.
+	directory := directory directoryNamed: 'MaterialIconsOutlined'.
 	self assert: (directory fileExists: 'favorite_border','.png')
 	
 

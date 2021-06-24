@@ -3,6 +3,7 @@ testAspectRatio
 
 	|aspectRatioBefore aspectRatioAfter|
 	
+	self icon setAspectRatio: 1@2.
 	aspectRatioBefore := self icon aspectRatio x / self icon aspectRatio y.
 	
 	"test 1"
