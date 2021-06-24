@@ -1,7 +1,6 @@
 accessing
 setIcon: anID from: aFileDirectory
 
-"NUR  ALS VORLAGE FUER LOCAL FETCHER"
 	|path|
 	
 	path := (aFileDirectory / (anID, '.png')) fullName.
