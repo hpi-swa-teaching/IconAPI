@@ -10,5 +10,5 @@
 	"name" : "IconIconsFetcher",
 	"pools" : [
 		 ],
-	"super" : "IconFetchStrategy",
+	"super" : "HTTPIconFetcher",
 	"type" : "normal" }
