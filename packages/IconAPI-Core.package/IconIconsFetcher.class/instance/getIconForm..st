@@ -1,10 +1,11 @@
 as yet unclassified
 getIconForm: anID
 
-	|download|
+	|download url|
 	
 	(self directory fileExists: anID,'.png') ifFalse: [		
-		download := HTTPSocket httpGet: (self urlPrefix), anID, (self urlSuffix).
+		url := self extractURLwith: anID.
+		download := HTTPSocket httpGet: url.
 		self processFile: download with: anID].
 
 	^ self formFrom: anID

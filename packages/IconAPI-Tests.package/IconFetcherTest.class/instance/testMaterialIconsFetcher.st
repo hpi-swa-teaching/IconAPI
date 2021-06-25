@@ -6,6 +6,6 @@ testMaterialIconsFetcher
 	fetcher := MaterialIconsFetcher new.
 	fetcher useOutlined: false.
 	form := fetcher getIconForm: 'favorite_border'.
-	compareForm := Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: (IconFetcherTest testImageBase64 readStream)).
+	compareForm := Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: IconFetcherTest testImageBase64_materialicons readStream).
 	
-	self assert: (form bits) = (compareForm bits)
+	self assert: form bits = compareForm bits

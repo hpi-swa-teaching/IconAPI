@@ -1,0 +1,14 @@
+{
+	"category" : "IconAPI-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "IconIconsFetcher",
+	"pools" : [
+		 ],
+	"super" : "IconFetchStrategy",
+	"type" : "normal" }
