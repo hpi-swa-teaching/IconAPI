@@ -14,7 +14,7 @@ testMaterialIconsMaxVersion
 	form := fetcher getIconForm: 'thumb_down'.
 	compareForm := fetcher formFrom: 'thumb_down_max'.
 	
-	self assert: (compareForm bits = form bits)
+	self assert: compareForm bits = form bits
 	
 	
 	

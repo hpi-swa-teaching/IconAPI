@@ -3,8 +3,11 @@
 		 },
 	"instance" : {
 		"directory" : "hw 6/23/2021 14:31",
-		"downloadFileWith:" : "LH 6/25/2021 13:43",
+		"downloadFileWith:" : "LH 6/26/2021 10:12",
 		"extract:from:" : "LH 6/24/2021 18:07",
+		"initialize" : "LH 6/26/2021 10:11",
+		"maxVersion" : "LH 6/26/2021 10:11",
+		"maxVersion:" : "LH 6/26/2021 10:11",
 		"processFile:with:" : "LH 6/24/2021 18:12",
 		"urlPrefix" : "hw 6/23/2021 14:22",
 		"urlSuffix" : "LH 6/25/2021 12:53",

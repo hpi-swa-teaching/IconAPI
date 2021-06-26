@@ -1,12 +1,12 @@
 accessing
 downloadFileWith: anID
 
-	|maxVersion|
+	|currentHighestVersion|
 	
-	maxVersion := 1.
-	1 to: 25 do: [:version | 
+	currentHighestVersion := 1.
+	1 to: self maxVersion do: [:version | 
 		|download|
 		download := HTTPSocket httpGet: (self urlPrefix), anID, '/v', version asString, (self urlSuffix).
-		download isStream ifTrue: [maxVersion := version]].	
+		download isStream ifTrue: [currentHighestVersion := version]].	
 
-	^ HTTPSocket httpGet: (self urlPrefix), anID, '/v', maxVersion asString, (self urlSuffix)
+	^ HTTPSocket httpGet: (self urlPrefix), anID, '/v', currentHighestVersion asString, (self urlSuffix)
