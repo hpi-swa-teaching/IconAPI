@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 buildIconSpecWith: aBuilder
 
 	^ aBuilder pluggableIconSpec new

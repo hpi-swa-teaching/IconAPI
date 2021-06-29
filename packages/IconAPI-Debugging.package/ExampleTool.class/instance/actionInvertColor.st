@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 actionInvertColor
 
 	self iconColor: self iconColor inverted

@@ -1,4 +1,4 @@
-as yet unclassified
+helper methods
 greatestCommonDivisor: aPoint
 
 	|valueX valueY helper|

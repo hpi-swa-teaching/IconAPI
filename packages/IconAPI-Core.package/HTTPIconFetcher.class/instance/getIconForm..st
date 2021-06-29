@@ -1,12 +1,12 @@
 as yet unclassified
 getIconForm: anID
 
-	|gzip archive|
+	|zip archive|
 	
 	(self directory fileExists: anID,'.png') ifFalse: [		
-		gzip := HTTPSocket httpGet: (self urlPrefix), anID, (self urlSuffix).
+		zip := HTTPSocket httpGet: (self urlPrefix), anID, (self urlSuffix).
 		archive := ZipArchive new.
-		archive readFrom: gzip.
+		archive readFrom: zip.
 		archive extractAllTo: self directory.
 	
 		self extract: anID from: self directory.

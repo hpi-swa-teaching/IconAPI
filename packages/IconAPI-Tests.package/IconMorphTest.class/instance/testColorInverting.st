@@ -1,4 +1,4 @@
-color setting
+testing
 testColorInverting
 	
 	self icon setIconFrom: (Form fromBinaryStream:  (Base64MimeConverter mimeDecodeToBytes: (IconMorphTest testImage readStream))).

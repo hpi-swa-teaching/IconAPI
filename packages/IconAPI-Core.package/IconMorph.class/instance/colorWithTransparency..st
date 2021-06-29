@@ -4,7 +4,7 @@ colorWithTransparency: aColor
 	|bitmap|
 	
  	bitmap := self originalForm bits.
-	1 to: bitmap size do: [:pixelIndex |
+	(1 to: bitmap size) do: [:pixelIndex |
 		|value alpha red green blue|
 		value := bitmap at: pixelIndex.
 		alpha := value bitShift: -24.
