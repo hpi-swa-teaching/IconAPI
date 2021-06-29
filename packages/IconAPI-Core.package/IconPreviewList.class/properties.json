@@ -6,14 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"padding",
-		"originalForm",
-		"scaledForm",
-		"aspectRatio",
-		"iconColor",
-		"fetcher",
-		"iconList" ],
-	"name" : "IconMorph",
+		 ],
+	"name" : "IconPreviewList",
 	"pools" : [
 		 ],
 	"super" : "Morph",

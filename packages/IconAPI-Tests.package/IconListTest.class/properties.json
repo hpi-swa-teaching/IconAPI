@@ -1,0 +1,14 @@
+{
+	"category" : "IconAPI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"window" ],
+	"name" : "IconListTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
