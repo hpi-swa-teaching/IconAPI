@@ -1,8 +1,10 @@
 {
 	"class" : {
 		"testImageBase64_iconicons" : "LH 6/25/2021 11:45",
-		"testImageBase64_materialicons" : "LH 6/26/2021 10:15" },
+		"testImageBase64_materialicons" : "LH 6/29/2021 16:47",
+		"testImageBase64_materialicons_v1" : "LH 6/30/2021 18:55" },
 	"instance" : {
+		"setUp" : "LH 6/29/2021 16:49",
 		"testIconIconsFetcher" : "LH 6/25/2021 11:46",
-		"testMaterialIconsFetcher" : "LH 6/26/2021 10:13",
+		"testMaterialIconsFetcher" : "LH 6/30/2021 18:42",
 		"testMaterialIconsMaxVersion" : "LH 6/26/2021 10:09" } }

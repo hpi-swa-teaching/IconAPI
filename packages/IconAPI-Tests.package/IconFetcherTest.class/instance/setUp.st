@@ -1,4 +1,4 @@
-running
+as yet unclassified
 setUp
 
 	|directory|
@@ -7,8 +7,5 @@ setUp
 	(directory directoryExists: 'MaterialIconsOutlined') ifTrue: [(directory directoryNamed: 'MaterialIconsOutlined') recursiveDelete].
 	(directory directoryExists: 'IconIcons') ifTrue: [(directory directoryNamed: 'IconIcons') recursiveDelete].
 	(directory directoryExists: 'MaterialIcons') ifTrue: [(directory directoryNamed: 'MaterialIcons') recursiveDelete].
-	self icon: IconMorph new.
-	icon fetcher maxVersion: 1.
-	
 	
 	

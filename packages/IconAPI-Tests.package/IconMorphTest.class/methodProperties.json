@@ -2,16 +2,16 @@
 	"class" : {
 		"aspectTestImage" : "hw 6/17/2021 11:58",
 		"testImage" : "han 6/10/2021 12:16",
-		"testImageBase64" : "LH 6/26/2021 10:27" },
+		"testImageBase64" : "LH 6/30/2021 18:57" },
 	"instance" : {
 		"icon" : "SV 5/1/2021 13:52",
 		"icon:" : "SV 5/1/2021 13:55",
-		"setUp" : "hw 6/21/2021 17:06",
+		"setUp" : "LH 6/30/2021 18:47",
 		"tearDown" : "LH 6/2/2021 14:45",
 		"testAspectRatio" : "hw 6/21/2021 17:06",
 		"testAspectRatio2" : "hw 6/21/2021 17:05",
-		"testCaching" : "hw 6/23/2021 14:36",
+		"testCaching" : "LH 6/30/2021 19:03",
 		"testColorInverting" : "hw 6/21/2021 17:11",
 		"testColorSetting" : "hw 6/21/2021 17:12",
-		"testFetchIconById" : "LH 6/26/2021 10:27",
+		"testFetchIconById" : "LH 6/29/2021 16:46",
 		"testPadding" : "LH 6/2/2021 14:47" } }
