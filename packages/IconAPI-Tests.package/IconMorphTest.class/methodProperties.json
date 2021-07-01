@@ -4,9 +4,10 @@
 		"testImage" : "han 6/10/2021 12:16",
 		"testImageBase64" : "alexander wischmann 7/1/2021 19:37" },
 	"instance" : {
+		"deleteDirectories" : "alexander wischmann 7/1/2021 20:09",
 		"icon" : "SV 5/1/2021 13:52",
 		"icon:" : "SV 5/1/2021 13:55",
-		"setUp" : "alexander wischmann 7/1/2021 19:32",
+		"setUp" : "alexander wischmann 7/1/2021 20:09",
 		"tearDown" : "LH 6/2/2021 14:45",
 		"testAspectRatio" : "hw 6/21/2021 17:06",
 		"testAspectRatio2" : "hw 6/21/2021 17:05",

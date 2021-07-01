@@ -35,7 +35,7 @@ baseline: spec
             requires: #('IconAPI-Core')];
         package: 'IconAPI-Tests' with: [
           spec
-            requires: #('IconAPI-Core' 'SwaLint-Core' 'SwaLint-PlugIns' 'IconAPI-Debugging')].
+            requires: #('IconAPI-Core' 'SwaLint-Core' 'SwaLint-PlugIns' 'IconAPI-Debugging' 'JSON')].
 
       spec
         group: 'default' with: #('IconAPI-Core' 'IconAPI-Debugging');
