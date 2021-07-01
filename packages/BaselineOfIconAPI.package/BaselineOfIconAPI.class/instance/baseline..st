@@ -29,6 +29,7 @@ baseline: spec
         postLoadDoIt: #postLoad;
 
         "IconAPI setup"
+	  package: 'JSON';
         package: 'IconAPI-Core';
         package: 'IconAPI-Debugging' with: [
           spec
