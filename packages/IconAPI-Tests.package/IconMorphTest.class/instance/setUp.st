@@ -8,7 +8,7 @@ setUp
 	(directory directoryExists: 'IconIcons') ifTrue: [(directory directoryNamed: 'IconIcons') recursiveDelete].
 	(directory directoryExists: 'MaterialIcons') ifTrue: [(directory directoryNamed: 'MaterialIcons') recursiveDelete].
 	self icon: IconMorph new.
-	icon fetcher maxVersion: 1.
+
 	
 	
 	
