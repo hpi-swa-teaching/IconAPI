@@ -29,7 +29,7 @@ baseline: spec
         postLoadDoIt: #postLoad;
 
         "IconAPI setup"
-	  package: 'JSON';
+	  package: 'JSON' with: [spec file: 'JSON-ul.35'; repository: 'http://www.squeaksource.com/JSON'];
         package: 'IconAPI-Core';
         package: 'IconAPI-Debugging' with: [
           spec
