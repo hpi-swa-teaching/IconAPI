@@ -1,11 +1,13 @@
 as yet unclassified
 createIconWindow
 	
-	|window|
-	window := (ToolBuilder default) pluggableWindowSpec new
-        	model: Model new;
+	|window toolBuilder|
+	toolBuilder := ToolBuilder default.
+	window := toolBuilder pluggableWindowSpec new
+        	model: self;
 		label: 'Icon List';
-        	children: {};
+        	children: {self buildListSpecWith: toolBuilder. self buildIconSpecWith: toolBuilder};
         	yourself.
 	
-	^ (ToolBuilder default) build: window
+	
+	^ toolBuilder build: window
