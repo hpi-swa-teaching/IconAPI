@@ -3,8 +3,7 @@ testCaching
 	
 	|directory|
 	
-	directory := FileDirectory uri: 'Icons'.
-	(directory directoryExists: 'MaterialIconsOutlined') ifTrue: [(directory directoryNamed: 'MaterialIconsOutlined') recursiveDelete].	
+	directory := FileDirectory uri: 'Icons'.	
 	
 	self icon setIcon: 'favorite_border'.
 	self assert: (directory directoryExists: 'MaterialIconsOutlined').
