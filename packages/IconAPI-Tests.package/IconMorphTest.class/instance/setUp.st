@@ -1,7 +1,10 @@
 running
 setUp
 
-	self icon: IconMorph new.
+	self 
+		deleteDirectories;
+		icon: IconMorph new
+
 	
 	
 	

@@ -1,4 +1,4 @@
 as yet unclassified
 urlSuffix
 
-	^ '/black-48dp.zip'
+	^ '/PNG/64/'

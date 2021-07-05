@@ -29,13 +29,14 @@ baseline: spec
         postLoadDoIt: #postLoad;
 
         "IconAPI setup"
+	  package: 'JSON' with: [spec file: 'JSON-ul.35'; repository: 'http://www.squeaksource.com/JSON'];
         package: 'IconAPI-Core';
         package: 'IconAPI-Debugging' with: [
           spec
             requires: #('IconAPI-Core')];
         package: 'IconAPI-Tests' with: [
           spec
-            requires: #('IconAPI-Core' 'SwaLint-Core' 'SwaLint-PlugIns' 'IconAPI-Debugging')].
+            requires: #('IconAPI-Core' 'SwaLint-Core' 'SwaLint-PlugIns' 'IconAPI-Debugging' 'JSON')].
 
       spec
         group: 'default' with: #('IconAPI-Core' 'IconAPI-Debugging');

@@ -1,5 +1,11 @@
 {
 	"class" : {
-		"testImageBase64" : "hw 6/21/2021 13:50" },
+		"testImageBase64_iconicons" : "LH 6/25/2021 11:45",
+		"testImageBase64_materialicons" : "alexander wischmann 7/3/2021 15:41",
+		"testImageBase64_materialiconsOutlined" : "alexander wischmann 7/3/2021 15:41" },
 	"instance" : {
-		"testMaterialIconsFetcher" : "hw 6/23/2021 14:23" } }
+		"deleteDirectories" : "alexander wischmann 7/1/2021 20:07",
+		"setUp" : "alexander wischmann 7/1/2021 20:10",
+		"testIconIconsFetcher" : "LH 6/25/2021 11:46",
+		"testMaterialIconsFetcher" : "alexander wischmann 7/3/2021 15:41",
+		"testMaterialIconsFetcherOutlined" : "alexander wischmann 7/3/2021 15:42" } }
