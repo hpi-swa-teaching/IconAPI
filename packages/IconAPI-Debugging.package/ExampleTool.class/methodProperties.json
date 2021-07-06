@@ -2,11 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"actionInvertColor" : "han 6/8/2021 16:43",
-		"actionSetColorBlue" : "han 6/10/2021 12:11",
-		"buildIconButtonSpecWith:" : "han 6/9/2021 11:53",
-		"buildIconSpecWith:" : "han 6/10/2021 11:09",
-		"buildWith:" : "han 6/8/2021 16:14",
-		"iconColor" : "han 6/8/2021 16:45",
-		"iconColor:" : "han 6/8/2021 16:43",
-		"initialize" : "han 6/8/2021 16:46" } }
+		"buildIconButtonSpecWith:" : "han 7/6/2021 16:54",
+		"buildIconSpecWith:" : "han 7/6/2021 16:48",
+		"buildNumberSpecWith:" : "han 7/6/2021 16:46",
+		"buildWith:" : "han 7/6/2021 16:58",
+		"incrementNumber" : "han 7/6/2021 16:53",
+		"initialize" : "han 7/6/2021 16:48",
+		"numberValue" : "han 7/6/2021 16:47",
+		"numberValue:" : "han 7/6/2021 16:47",
+		"numberValueString" : "han 7/6/2021 16:48" } }
