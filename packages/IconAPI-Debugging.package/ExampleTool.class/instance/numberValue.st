@@ -1,0 +1,4 @@
+accessing
+numberValue
+
+	^ numberValue
