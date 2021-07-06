@@ -3,10 +3,11 @@ buildIconButtonSpecWith: aBuilder
 
 	^ aBuilder pluggableIconButtonSpec new
 		model: self;
-		id: 'default';
-		frame: (0@0 corner: 0.5@1);
+		id: 'add_circle';
+		iconColor: Color white;
+		frame: (0@0.2 corner: 0.5@1);
 		aspectRatio: 1@1;
 		padding: 0;
 		target: self;
-		action: #actionSetColorBlue;
+		action: #incrementNumber;
 		yourself
