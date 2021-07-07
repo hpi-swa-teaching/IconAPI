@@ -3,6 +3,7 @@ testOpenWindow
 
 	|testWindow|
 
-	testWindow := ((IconMorph new) createListWindow) iconList.
-	self assert: (self window bounds) equals: (testWindow bounds).
-	self assert: (self window label) equals: (testWindow label).
+	testWindow := (IconMorph newWith: MaterialIconsFetcher new) createListWindow.
+	self assert: (testWindow width) >  0.
+	self assert: (testWindow height) > 0.
+	self assert: (self window label) equals: (testWindow label)

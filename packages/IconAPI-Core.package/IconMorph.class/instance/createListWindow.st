@@ -1,4 +1,5 @@
 accessing
 createListWindow
 	
-	self iconList: IconPreviewList new createIconWindow
+	^ (IconPreviewList newWith: self fetcher) createIconWindow
+		
