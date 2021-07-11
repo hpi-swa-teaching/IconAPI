@@ -4,7 +4,7 @@ buildPluggableIconMorph: aSpec
 	|widget|
 	
 	widget := IconMorph new
-		setIcon: aSpec id;
+		id: aSpec id;
 		setAspectRatio: aSpec aspectRatio;
 		setPadding: aSpec padding;
 		iconColor: aSpec iconColor;
