@@ -9,7 +9,7 @@ buildPluggableIconButton: aSpec
 		yourself.
 		
 	widget iconMorph 
-		setIcon: aSpec id;
+		id: aSpec id;
 		setAspectRatio: aSpec aspectRatio;
 		setPadding: aSpec padding;
 		iconColor: aSpec iconColor;
