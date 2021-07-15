@@ -3,4 +3,4 @@ newAt: aFileDirectory
 
 	^ self new
 		directory: aFileDirectory;
-		yourself.
+		yourself
