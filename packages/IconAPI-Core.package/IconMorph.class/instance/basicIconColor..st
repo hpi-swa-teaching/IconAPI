@@ -1,4 +1,4 @@
 accessing
 basicIconColor: aColor
 
-	iconColor := aColor.
+	iconColor := aColor
