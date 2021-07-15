@@ -1,15 +1,14 @@
 as yet unclassified
 getIconForm: anID
 
-	|download|
+	|download fetchBlock|
 	
-	(self directory fileExists: anID,'.png') ifFalse: [		
-		download := self downloadFileWith: anID.
+	(self directory fileExists: anID,'.png') ifTrue: [^ self formFrom: anID]. 	
 		
-		download isString
-			ifTrue: [
-				self notifyIconNotFound: anID.
-				^ self class errorIconForm]
-			ifFalse: [
-				self processFile: download with: anID]].
-	^ self formFrom: anID
+	fetchBlock := [	
+		download := self downloadFileWith: anID.
+		self processFile: download with: anID.
+		^ self formFrom: anID].
+	fetchBlock on: Error do: [:exception |
+		self notifyIconNotFound: anID.
+		^ self class errorIconForm]
