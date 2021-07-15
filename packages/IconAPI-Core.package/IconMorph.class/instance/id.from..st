@@ -1,5 +1,5 @@
 accessing
-setIcon: anID from: aFileDirectory
+id: anID from: aFileDirectory
 
 "NUR  ALS VORLAGE FUER LOCAL FETCHER"
 	|path|

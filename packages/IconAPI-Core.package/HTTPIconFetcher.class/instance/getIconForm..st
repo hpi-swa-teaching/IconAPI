@@ -1,15 +1,10 @@
 as yet unclassified
 getIconForm: anID
 
-	|zip archive|
+	|download|
 	
 	(self directory fileExists: anID,'.png') ifFalse: [		
-		zip := HTTPSocket httpGet: (self urlPrefix), anID, (self urlSuffix).
-		archive := ZipArchive new.
-		archive readFrom: zip.
-		archive extractAllTo: self directory.
-	
-		self extract: anID from: self directory.
-	].
+		download := self downloadFileWith: anID.
+		self processFile: download with: anID].
 
 	^ self formFrom: anID

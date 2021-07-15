@@ -5,7 +5,8 @@ initialize
 	super color: Color transparent.
 	self 
 		fetcher: MaterialIconsFetcher new;
+		isIconColorSet: false;
 		aspectRatio: 1@1;
 		padding: 0;
-		setIcon: 'default';
+		id: 'default';
 		borderColor: Color transparent

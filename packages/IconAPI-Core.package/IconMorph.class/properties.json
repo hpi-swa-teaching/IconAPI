@@ -11,7 +11,9 @@
 		"scaledForm",
 		"aspectRatio",
 		"iconColor",
-		"fetcher" ],
+		"fetcher",
+		"iconList",
+		"isIconColorSet" ],
 	"name" : "IconMorph",
 	"pools" : [
 		 ],
