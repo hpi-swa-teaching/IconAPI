@@ -4,4 +4,4 @@ getIconForm: anID
 	|path|
 	
 	path := (self directory / (anID, '.png')) fullName.
-	^ (PNGReadWriter formFromFileNamed: path)
+	^ PNGReadWriter formFromFileNamed: path
