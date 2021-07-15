@@ -1,4 +1,4 @@
-as yet unclassified
+private
 notifyIconNotFound: anID
 
-	PopUpMenu inform: 'Icon with id "', anID, '" is not available in ', self class asString, ' or the network request failed.'
+	PopUpMenu inform: 'Fetching failed. ', Character cr asString,  Character cr asString, 'Icon with id "', anID, '" is not available in ', self class asString,  Character cr asString,' OR', Character cr asString,'there has been an exception while trying to fetch.'
