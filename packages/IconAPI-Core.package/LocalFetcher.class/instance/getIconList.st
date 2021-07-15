@@ -1,0 +1,4 @@
+accessing
+getIconList
+
+	^Array new
