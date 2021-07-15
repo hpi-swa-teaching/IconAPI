@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"iconList",
+		"iconIndex",
+		"iconFetcher" ],
 	"name" : "IconPreviewList",
 	"pools" : [
 		 ],

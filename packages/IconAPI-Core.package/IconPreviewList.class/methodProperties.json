@@ -1,5 +1,15 @@
 {
 	"class" : {
-		 },
+		"newWith:" : "alexander wischmann 7/7/2021 12:26" },
 	"instance" : {
-		"createIconWindow" : "FM 6/24/2021 10:36" } }
+		"buildIconSpecWith:" : "han 7/2/2021 10:29",
+		"buildListSpecWith:" : "han 7/2/2021 10:20",
+		"createIconWindow" : "alexander wischmann 7/7/2021 12:41",
+		"iconFetcher" : "alexander wischmann 7/7/2021 12:27",
+		"iconFetcher:" : "alexander wischmann 7/7/2021 12:42",
+		"iconIndex" : "han 7/2/2021 09:40",
+		"iconIndex:" : "han 7/2/2021 09:40",
+		"iconList" : "han 7/2/2021 10:46",
+		"iconList:" : "han 7/2/2021 09:37",
+		"initialize" : "alexander wischmann 7/7/2021 12:35",
+		"windowTitle" : "alexander wischmann 7/7/2021 12:58" } }

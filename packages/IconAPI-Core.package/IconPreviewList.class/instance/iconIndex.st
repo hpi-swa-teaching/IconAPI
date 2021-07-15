@@ -1,0 +1,4 @@
+accessing
+iconIndex
+
+	^ iconIndex
