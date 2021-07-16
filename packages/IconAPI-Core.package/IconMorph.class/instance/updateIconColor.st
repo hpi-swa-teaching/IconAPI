@@ -1,4 +1,4 @@
 accessing
 updateIconColor
 
-	isIconColorSet ifTrue: [self iconColor: self iconColor]
+	self isIconColorSet ifTrue: [self iconColor: self iconColor]

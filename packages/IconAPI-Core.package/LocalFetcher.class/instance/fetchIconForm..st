@@ -1,5 +1,5 @@
 accessing
-getIconForm: anID
+fetchIconForm: anID
 
 	|path|
 	
