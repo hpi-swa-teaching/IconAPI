@@ -12,7 +12,7 @@
 		"aspectRatio",
 		"iconColor",
 		"fetcher",
-		"iconList" ],
+		"isIconColorSet" ],
 	"name" : "IconMorph",
 	"pools" : [
 		 ],

@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"iconList",
-		"iconIndex",
-		"iconFetcher" ],
-	"name" : "IconPreviewList",
+		"directory" ],
+	"name" : "LocalFetcher",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "IconFetchStrategy",
 	"type" : "normal" }
