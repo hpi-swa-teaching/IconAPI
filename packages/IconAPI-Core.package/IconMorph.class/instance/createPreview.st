@@ -1,5 +1,5 @@
 accessing
-createListWindow
+createPreview
 	
 	^ (IconPreviewList newWith: self fetcher) createIconWindow
 		
