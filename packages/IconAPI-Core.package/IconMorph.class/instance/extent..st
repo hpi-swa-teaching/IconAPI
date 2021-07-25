@@ -1,23 +1,21 @@
 accessing
 extent: newExtent
 	
-	| aspectRatio heightScaled widthScaled frameWidth frameHeight targetWidth targetHeight scaleFactor |
+	| aspectRatio heightScaled widthScaled targetWidth targetHeight scaleFactor |
 	
 	super extent: newExtent.
 	
 	aspectRatio := self aspectRatio x / self aspectRatio y.
-	frameWidth := self width - (2 * self padding).
-	frameHeight := self height - (2 * self padding).
 	
-	widthScaled := frameHeight * aspectRatio.
-	heightScaled := frameWidth / aspectRatio.
+	widthScaled := self height * aspectRatio.
+	heightScaled := self width / aspectRatio.
 		
-	widthScaled <= frameWidth
+	widthScaled <= self width
 		ifTrue: [
 				targetWidth := widthScaled.
-				targetHeight := frameHeight]
+				targetHeight := self height]
 		ifFalse: [
-				targetWidth := frameWidth.
+				targetWidth := self width.
 				targetHeight := heightScaled].
 			
 	scaleFactor := (targetWidth / self originalForm width) @ (targetHeight / self originalForm height).

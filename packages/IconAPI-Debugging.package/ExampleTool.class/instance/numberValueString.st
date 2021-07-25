@@ -1,4 +1,4 @@
 accessing
 numberValueString
 
-	^self numberValue asString
+	^ self numberValue asString

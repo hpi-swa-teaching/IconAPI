@@ -1,4 +1,4 @@
 accessing
-fetcher: anObject
+fetcher: aFetcher
 
-	fetcher := anObject
+	fetcher := aFetcher

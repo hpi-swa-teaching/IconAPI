@@ -1,4 +1,4 @@
 accessing
-inverted: anObject
+inverted: aBoolean
 
-	inverted := anObject
+	inverted := aBoolean

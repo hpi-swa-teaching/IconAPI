@@ -1,4 +1,4 @@
 accessing
-iconMorph: anObject
+iconMorph: anIconMorph
 
-	iconMorph := anObject
+	iconMorph := anIconMorph

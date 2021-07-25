@@ -1,4 +1,4 @@
 accessing
 getIconList
 
-	^Array new
+	^ Array new

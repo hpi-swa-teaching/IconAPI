@@ -1,4 +1,4 @@
 as yet unclassified
 getIconList
 
-	^Array new
+	^ Array new

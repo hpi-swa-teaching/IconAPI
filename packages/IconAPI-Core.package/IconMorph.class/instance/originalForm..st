@@ -1,4 +1,4 @@
 accessing
-originalForm: anObject
+originalForm: aForm
 
-	originalForm := anObject
+	originalForm := aForm

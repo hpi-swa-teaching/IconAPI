@@ -1,4 +1,4 @@
 accessing
-aspectRatio: anObject
+aspectRatio: aPoint
 
-	aspectRatio := anObject
+	aspectRatio := aPoint
