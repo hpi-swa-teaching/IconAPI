@@ -1,4 +1,4 @@
 accessing
-scaledForm: anObject
+scaledForm: aForm
 
-	scaledForm := anObject
+	scaledForm := aForm
