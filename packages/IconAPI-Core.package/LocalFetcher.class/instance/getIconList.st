@@ -1,4 +1,4 @@
-accessing
+interface
 getIconList
 
 	^ Array new

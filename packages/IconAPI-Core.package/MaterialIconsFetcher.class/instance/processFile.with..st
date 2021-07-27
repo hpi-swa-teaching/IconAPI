@@ -1,4 +1,4 @@
-accessing
+fetching
 processFile: download with: anID
 
 	|archive|

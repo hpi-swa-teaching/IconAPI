@@ -1,4 +1,4 @@
-accessing
+building
 buildListSpecWith: aBuilder
 
 	^ aBuilder pluggableListSpec new

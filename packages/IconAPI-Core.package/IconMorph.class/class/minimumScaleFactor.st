@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 minimumScaleFactor
 
 	^0.01

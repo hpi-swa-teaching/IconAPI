@@ -1,4 +1,4 @@
-accessing
+geometry
 setAspectRatio: aPoint
 	
 	aPoint 

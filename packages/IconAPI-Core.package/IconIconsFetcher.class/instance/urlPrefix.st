@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 urlPrefix
 
 	^ 'https://icon-icons.com/download/'

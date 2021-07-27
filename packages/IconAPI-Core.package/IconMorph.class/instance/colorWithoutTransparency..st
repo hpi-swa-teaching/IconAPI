@@ -1,4 +1,4 @@
-accessing
+color setting
 colorWithoutTransparency: aColor
 
 	|colors |

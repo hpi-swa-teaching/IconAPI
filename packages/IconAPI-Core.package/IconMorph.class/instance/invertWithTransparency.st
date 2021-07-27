@@ -1,4 +1,4 @@
-accessing
+color setting
 invertWithTransparency
 	
 	|bitmap|
