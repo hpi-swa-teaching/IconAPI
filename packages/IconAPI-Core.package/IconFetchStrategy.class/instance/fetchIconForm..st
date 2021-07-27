@@ -1,4 +1,4 @@
-private
+fetching
 fetchIconForm: anID
 
 	^ self subclassResponsibility

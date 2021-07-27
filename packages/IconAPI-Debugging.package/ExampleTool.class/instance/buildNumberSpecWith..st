@@ -1,4 +1,4 @@
-accessing
+building
 buildNumberSpecWith: aBuilder
 
 	^ aBuilder pluggableTextSpec new

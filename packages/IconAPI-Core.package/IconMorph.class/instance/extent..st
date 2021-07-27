@@ -1,4 +1,4 @@
-accessing
+geometry
 extent: newExtent
 	
 	| aspectRatio heightScaled widthScaled targetWidth targetHeight scaleFactor |

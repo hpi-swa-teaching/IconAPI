@@ -1,4 +1,4 @@
-accessing
+color setting
 invert
 	
 	self originalForm depth = 32 

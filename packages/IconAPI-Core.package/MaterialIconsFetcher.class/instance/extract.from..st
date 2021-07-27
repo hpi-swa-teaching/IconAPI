@@ -1,4 +1,4 @@
-accessing
+fetching
 extract: anID from: aDirectory
 
 	|subdirectories picture|

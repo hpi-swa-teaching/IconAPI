@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 directory
 
 	^ (FileDirectory uri: 'Icons') / 'IconIcons'

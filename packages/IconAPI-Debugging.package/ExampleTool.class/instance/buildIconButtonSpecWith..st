@@ -1,4 +1,4 @@
-accessing
+building
 buildIconButtonSpecWith: aBuilder
 
 	^ aBuilder pluggableIconButtonSpec new

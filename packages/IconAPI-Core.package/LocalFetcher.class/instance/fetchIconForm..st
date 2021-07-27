@@ -1,4 +1,4 @@
-accessing
+fetching
 fetchIconForm: anID
 
 	|path|
