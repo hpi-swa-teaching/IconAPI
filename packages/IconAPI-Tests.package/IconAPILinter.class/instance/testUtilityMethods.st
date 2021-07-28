@@ -1,4 +1,4 @@
 test-for-miscellaneous
-dontTestUtilityMethods
+testUtilityMethods
 
 	self assertAllAreZero: (self runLinterRule: #smallLintUtilityMethods)

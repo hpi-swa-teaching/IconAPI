@@ -1,4 +1,4 @@
 test-for-possible-bugs
-dontTestPossibleMissingYourself
+testPossibleMissingYourself
 
 	self assertAllAreZero: (self runLinterRule: #smallLintMissingYourself)

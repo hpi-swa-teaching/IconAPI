@@ -1,4 +1,4 @@
 test-for-miscellaneous
-dontTestSendsQuestionableMessage
+testSendsQuestionableMessage
 
 	self assertAllAreZero: (self runLinterRule: #smallLintBadMessage)
