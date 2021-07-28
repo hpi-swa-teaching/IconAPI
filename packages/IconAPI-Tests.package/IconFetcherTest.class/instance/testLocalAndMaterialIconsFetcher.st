@@ -9,4 +9,4 @@ testLocalAndMaterialIconsFetcher
 	localFetcher := LocalFetcher newAt: (FileDirectory uri: 'Icons') / 'MaterialIcons'.
 	form := localFetcher getIconForm: 'favorite_border'.
 	
-	self assert: (form bits) = (compareForm bits)
+	self assert: form bits = compareForm bits
