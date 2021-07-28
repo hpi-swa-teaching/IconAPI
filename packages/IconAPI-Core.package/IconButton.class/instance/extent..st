@@ -1,9 +1,9 @@
 geometry
-extent: newExtent
+extent: aPoint
 
-        super extent: newExtent.
+        super extent: aPoint.
 
         self hasSubmorphs ifTrue: [
             self firstSubmorph 
-                extent: newExtent x @ newExtent y;
+                extent: aPoint x @ aPoint y;
                 center: self center]

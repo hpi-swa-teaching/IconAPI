@@ -1,5 +1,5 @@
 fetching
-searchVersion: anID 
+searchVersionOf: aString 
 
 	 |stream version iconsDictionary|
 	
@@ -7,6 +7,6 @@ searchVersion: anID
 	stream := stream contents copyFrom: 6 to: stream contents size.
 	iconsDictionary := Json readFrom: stream readStream.
 	version := 1.
-	(iconsDictionary at: #icons) do: [:dictionary | (dictionary at: #name) = anID ifTrue: [version := dictionary at: #version]].
+	(iconsDictionary at: #icons) do: [:dictionary | (dictionary at: #name) = aString ifTrue: [version := dictionary at: #version]].
 	
 	^ version

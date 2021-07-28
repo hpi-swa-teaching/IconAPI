@@ -1,4 +1,4 @@
 building
-buildWith: builder
+buildWith: aToolBuilder
 
-	^ builder buildPluggableIconButton: self
+	^ aToolBuilder buildPluggableIconButton: self

@@ -1,11 +1,7 @@
 fetching
-formFrom: aString
+fetchIconFormWith: aString
 
-	|path| 
+	|path|
 	
 	path := (self directory / (aString, '.png')) fullName.
 	^ PNGReadWriter formFromFileNamed: path
-	
-	
-
-	

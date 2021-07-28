@@ -1,8 +1,8 @@
 fetching
-downloadFileWith: anID
+downloadFileWith: aString
 
 	|url|
 	
-	url := self extractURLwith: anID.
+	url := self extractURLwith: aString.
 	^ HTTPSocket httpGet: url
 

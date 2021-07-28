@@ -5,8 +5,8 @@ testLocalAndMaterialIconsFetcher
 	
 	materialIconsFetcher := MaterialIconsFetcher new.
 	materialIconsFetcher useOutlined: false.
-	compareForm := materialIconsFetcher getIconForm: 'favorite_border'.
+	compareForm := materialIconsFetcher getIconFormWith: 'favorite_border'.
 	localFetcher := LocalFetcher newAt: (FileDirectory uri: 'Icons') / 'MaterialIcons'.
-	form := localFetcher getIconForm: 'favorite_border'.
+	form := localFetcher getIconFormWith: 'favorite_border'.
 	
 	self assert: form bits = compareForm bits

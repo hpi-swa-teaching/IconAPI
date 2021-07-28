@@ -1,7 +1,7 @@
 color setting
 setColorWithoutTransparency: aColor
 
-	|colors |
+	|colors|
 
 	colors := self originalForm colorsUsed.
 	colors := colors reject: [:color | color isTranslucent].

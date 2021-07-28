@@ -1,5 +1,5 @@
 fetching
-processFile: download with: anID
+processFile: aStream with: aString
 
-	self directory putFile: download named: anID,'.png'
+	self directory putFile: aStream named: aString, '.png'
 	

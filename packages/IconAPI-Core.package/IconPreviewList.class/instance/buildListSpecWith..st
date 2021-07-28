@@ -1,7 +1,7 @@
 building
-buildListSpecWith: aBuilder
+buildListSpecWith: aToolBuilder
 
-	^ aBuilder pluggableListSpec new
+	^ aToolBuilder pluggableListSpec new
 		model: self;
 		list: #iconList;
 		getIndex: #iconIndex;

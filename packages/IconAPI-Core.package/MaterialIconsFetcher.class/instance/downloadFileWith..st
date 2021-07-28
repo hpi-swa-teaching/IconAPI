@@ -1,7 +1,7 @@
 fetching
-downloadFileWith: anID
+downloadFileWith: aString
 
 	|version|
 	
-	version := self searchVersion: anID.
-	^ HTTPSocket httpGet: (self urlPrefix), anID, '/v', version asString, (self urlSuffix)
+	version := self searchVersionOf: aString.
+	^ HTTPSocket httpGet: (self urlPrefix), aString, '/v', version asString, (self urlSuffix)

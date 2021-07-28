@@ -1,4 +1,4 @@
 fetching
-processFile: download with: anID
+processFile: aStream with: aString
 
 	^ self subclassResponsibility

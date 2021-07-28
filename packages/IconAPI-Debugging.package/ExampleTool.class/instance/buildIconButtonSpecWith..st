@@ -1,7 +1,7 @@
 building
-buildIconButtonSpecWith: aBuilder
+buildIconButtonSpecWith: aToolBuilder
 
-	^ aBuilder pluggableIconButtonSpec new
+	^ aToolBuilder pluggableIconButtonSpec new
 		model: self;
 		id: 'add_circle';
 		iconColor: Color white;

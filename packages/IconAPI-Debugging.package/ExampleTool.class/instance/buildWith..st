@@ -1,11 +1,11 @@
 building
-buildWith: aBuilder
+buildWith: aToolBuilder
 
 	|window|
 
-    	window := aBuilder pluggableWindowSpec new
+    	window := aToolBuilder pluggableWindowSpec new
         model: self;
-        children: {self buildIconSpecWith: aBuilder. self buildIconButtonSpecWith: aBuilder. self buildNumberSpecWith: aBuilder};
+        children: {self buildIconSpecWith: aToolBuilder. self buildIconButtonSpecWith: aToolBuilder. self buildNumberSpecWith: aToolBuilder};
         yourself.
 
-    ^ aBuilder build: window
+    ^ aToolBuilder build: window

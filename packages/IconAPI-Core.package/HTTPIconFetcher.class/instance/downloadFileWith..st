@@ -1,4 +1,4 @@
 fetching
-downloadFileWith: anID
+downloadFileWith: aString
 
 	^ self subclassResponsibility

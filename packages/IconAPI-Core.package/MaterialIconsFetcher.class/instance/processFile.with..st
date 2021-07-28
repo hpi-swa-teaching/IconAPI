@@ -1,9 +1,9 @@
 fetching
-processFile: download with: anID
+processFile: aStream with: aString
 
 	|archive|
 
 	archive := ZipArchive new.
-	archive readFrom: download.
+	archive readFrom: aStream.
 	archive extractAllTo: self directory.
-	self extract: anID from: self directory
+	self extractFileNamed: aString from: self directory

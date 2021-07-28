@@ -1,9 +1,9 @@
 geometry
-extent: newExtent
+extent: aPoint
 	
 	| aspectRatio heightScaled widthScaled targetWidth targetHeight scaleFactor |
 	
-	super extent: newExtent.
+	super extent: aPoint.
 	
 	aspectRatio := self aspectRatio x / self aspectRatio y.
 	

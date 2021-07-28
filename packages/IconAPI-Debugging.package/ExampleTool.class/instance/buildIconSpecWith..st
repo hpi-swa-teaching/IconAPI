@@ -1,7 +1,7 @@
 building
-buildIconSpecWith: aBuilder
+buildIconSpecWith: aToolBuilder
 
-	^ aBuilder pluggableIconSpec new
+	^ aToolBuilder pluggableIconSpec new
 		model: self;
 		id: 'pin';
 		iconColor: Color white;
