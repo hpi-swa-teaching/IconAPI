@@ -113,7 +113,7 @@
 		"testUnreferencedVariables" : "hw 5/29/2021 22:19",
 		"testUsesClassTrueFalse" : "hw 5/29/2021 22:19",
 		"testUsesDetectIfNoneInsteadOfAnySatisfy" : "hw 5/29/2021 22:19",
-		"testUsesDoInsteadOfCollectOrSelect" : "hw 5/29/2021 22:19",
+		"testUsesDoInsteadOfCollectOrSelect" : "hw 7/28/2021 12:06",
 		"testUsesDoInsteadOfContainsOrDetect" : "hw 5/29/2021 22:19",
 		"testUsesOrsInsteadOfASearchingLiteral" : "hw 5/29/2021 22:19",
 		"testUsesSizeEqualsZeroIsNilOrAtOneInsteadOfIsEmptyIsNilOrFirst" : "hw 5/29/2021 22:19",

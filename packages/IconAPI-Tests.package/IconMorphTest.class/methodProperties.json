@@ -4,14 +4,15 @@
 		"testImage" : "han 6/10/2021 12:16",
 		"testImageBase64" : "alexander wischmann 7/3/2021 15:44" },
 	"instance" : {
+		"assertAspectRatioSetCorrectly:" : "hw 7/28/2021 12:23",
 		"deleteDirectories" : "alexander wischmann 7/1/2021 20:09",
 		"icon" : "SV 5/1/2021 13:52",
 		"icon:" : "SV 5/1/2021 13:55",
-		"setUp" : "alexander wischmann 7/1/2021 20:09",
+		"setUp" : "hw 7/28/2021 12:32",
 		"tearDown" : "LH 6/2/2021 14:45",
-		"testAspectRatio" : "hw 6/21/2021 17:06",
-		"testAspectRatio2" : "hw 6/21/2021 17:05",
-		"testCaching" : "LH 7/11/2021 09:21",
-		"testColorInverting" : "hw 6/21/2021 17:11",
+		"testAspectRatioDoesntChange" : "hw 7/28/2021 12:25",
+		"testAspectRatioFromForm" : "hw 7/28/2021 12:26",
+		"testCaching" : "hw 7/28/2021 12:33",
+		"testColorInverting" : "hw 7/28/2021 12:00",
 		"testColorSetting" : "hw 6/21/2021 17:12",
-		"testFetchIconById" : "7/16/2021 00:50:12" } }
+		"testFetchIconById" : "hw 7/28/2021 12:34" } }

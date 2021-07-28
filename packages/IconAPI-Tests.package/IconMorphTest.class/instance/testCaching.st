@@ -3,8 +3,9 @@ testCaching
 	
 	|directory|
 	
-	directory := FileDirectory uri: 'Icons'.	
-	
+	self icon fetcher: MaterialIconsFetcher new.
+	self icon fetcher useOutlined: true.
+	directory := FileDirectory uri: 'Icons'.
 	self icon id: 'favorite_border'.
 	self assert: (directory directoryExists: 'MaterialIconsOutlined').
 	directory := directory directoryNamed: 'MaterialIconsOutlined'.
