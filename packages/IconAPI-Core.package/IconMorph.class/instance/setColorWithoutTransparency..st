@@ -1,5 +1,5 @@
 color setting
-colorWithoutTransparency: aColor
+setColorWithoutTransparency: aColor
 
 	|colors |
 

@@ -1,5 +1,5 @@
 color setting
-colorWithTransparency: aColor
+setColorWithTransparency: aColor
 
 	|bitmap|
 	
