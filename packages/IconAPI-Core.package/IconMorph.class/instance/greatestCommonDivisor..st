@@ -6,11 +6,10 @@ greatestCommonDivisor: aPoint
 	valueX := aPoint x.
 	valueY := aPoint y.
 	
-	[valueX > 0] whileTrue: [
+	[valueX strictlyPositive] whileTrue: [
 		helper := valueX.
 		valueX := valueY \\\ valueX.
-		valueY := helper
-		].
+		valueY := helper].
 	
 	^ valueY
 		

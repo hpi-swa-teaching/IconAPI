@@ -1,10 +1,11 @@
 testing
 testIconIconsFetcher
 
-	|fetcher form compareForm|
+	|testID fetcher form compareForm|
 	
+	testID := '156938'.
 	fetcher := IconIconsFetcher new.
-	form := fetcher getIconFormWith: '156938'.
-	compareForm := Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: IconFetcherTest testImageBase64_iconicons readStream).
+	form := fetcher getIconFormWith: testID.
+	compareForm := Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self class testImageBase64_iconicons readStream).
 	
-	self assert: form bits = compareForm bits
+	self assert: form bits equals: compareForm bits

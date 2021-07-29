@@ -2,4 +2,4 @@ interface
 getIconList
 
 "TODO: implement"
-	^ Array new
+	^ OrderedCollection new

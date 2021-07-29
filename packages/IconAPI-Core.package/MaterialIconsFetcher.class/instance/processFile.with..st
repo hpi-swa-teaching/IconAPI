@@ -1,9 +1,7 @@
 fetching
 processFile: aStream with: aString
 
-	|archive|
-
-	archive := ZipArchive new.
-	archive readFrom: aStream.
-	archive extractAllTo: self directory.
+	ZipArchive new
+		readFrom: aStream;
+		extractAllTo: self directory.
 	self extractFileNamed: aString from: self directory

@@ -1,7 +1,7 @@
 building
 createIconWindow
 	
-	|window toolBuilder|
+	|toolBuilder window|
 	
 	toolBuilder := ToolBuilder default.
 	window := toolBuilder pluggableWindowSpec new

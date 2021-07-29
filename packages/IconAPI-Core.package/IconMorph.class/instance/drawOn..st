@@ -1,5 +1,9 @@
 drawing
 drawOn: aCanvas
-
+	
+	|position|
+	
 	super drawOn: aCanvas.
-	aCanvas translucentImage: self scaledForm at: (self center - (self scaledForm extent // 2))
+	
+	position := self center - (self scaledForm extent // 2).
+	aCanvas translucentImage: self scaledForm at: position

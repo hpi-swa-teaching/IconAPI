@@ -1,11 +1,12 @@
 testing
 testMaterialIconsFetcher
 
-	|fetcher form compareForm|
+	|testID fetcher form compareForm|
 	
+	testID := 'thumb_up'.
 	fetcher := MaterialIconsFetcher new.
 	fetcher useOutlined: false.
-	form := fetcher getIconFormWith: 'thumb_up'.
-	compareForm := Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: IconFetcherTest testImageBase64_materialicons readStream).
+	form := fetcher getIconFormWith: testID.
+	compareForm := Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self class testImageBase64_materialicons readStream).
 	
-	self assert: form bits = compareForm bits
+	self assert: form bits equals: compareForm bits

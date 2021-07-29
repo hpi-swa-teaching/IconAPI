@@ -4,15 +4,15 @@
 		"testImage" : "han 6/10/2021 12:16",
 		"testImageBase64" : "alexander wischmann 7/3/2021 15:44" },
 	"instance" : {
-		"assertAspectRatioSetCorrectly:" : "alexander wischmann 7/29/2021 01:29",
+		"assertAspectRatioSetCorrectly:" : "alexander wischmann 7/29/2021 13:42",
 		"deleteDirectories" : "alexander wischmann 7/1/2021 20:09",
 		"icon" : "SV 5/1/2021 13:52",
 		"icon:" : "SV 5/1/2021 13:55",
 		"setUp" : "hw 7/28/2021 12:32",
 		"tearDown" : "LH 6/2/2021 14:45",
-		"testAspectRatioDoesntChange" : "hw 7/28/2021 12:25",
-		"testAspectRatioFromForm" : "hw 7/28/2021 12:26",
-		"testCaching" : "hw 7/28/2021 12:33",
-		"testColorInverting" : "hw 7/28/2021 12:00",
-		"testColorSetting" : "hw 6/21/2021 17:12",
-		"testFetchIconById" : "hw 7/28/2021 12:34" } }
+		"testAspectRatioDoesntChange" : "alexander wischmann 7/29/2021 13:50",
+		"testAspectRatioFromForm" : "alexander wischmann 7/29/2021 14:06",
+		"testCaching" : "alexander wischmann 7/29/2021 14:12",
+		"testColorInverting" : "alexander wischmann 7/29/2021 14:05",
+		"testColorSetting" : "alexander wischmann 7/29/2021 14:05",
+		"testFetchIconById" : "alexander wischmann 7/29/2021 14:13" } }

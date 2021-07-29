@@ -3,5 +3,6 @@ initialize
 
 	super initializeAllButLabel.
 	
-	self iconMorph: IconMorph new.
-	self addMorph: self iconMorph
+	self 
+		iconMorph: IconMorph new;
+		addMorph: self iconMorph

@@ -3,15 +3,14 @@ generateScaledForm: aPoint
 
 	|pair validPoint|
 	
-	validPoint := self clampToValidScaleFactor: aPoint.
-	self
-		scaledForm: (aPoint = (1 @ 1)
-				ifTrue: [self originalForm]
-				
-				ifFalse: [pair := WarpBlt
-								rotate: originalForm
-								degrees: 0
-								center: originalForm boundingBox center
-								scaleBy: validPoint
-								smoothing: 2.
-					pair first])
+	aPoint = (1 @ 1)
+		ifTrue: [self scaledForm: self originalForm]
+		ifFalse: [
+			validPoint := self clampToValidScaleFactor: aPoint.
+			pair := WarpBlt
+						rotate: originalForm
+						degrees: 0
+						center: originalForm boundingBox center
+						scaleBy: validPoint
+						smoothing: 2.
+			self scaledForm: pair first]

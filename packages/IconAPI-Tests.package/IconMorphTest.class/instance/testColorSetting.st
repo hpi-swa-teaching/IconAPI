@@ -1,6 +1,7 @@
 testing
 testColorSetting
 	
-	self icon setIconFrom: (Form fromBinaryStream:  (Base64MimeConverter mimeDecodeToBytes: (IconMorphTest testImage readStream))).
+	self icon setIconFrom: (Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self class testImage readStream)).
 	icon iconColor: Color red.
-	self assert: icon scaledForm dominantColor = Color red
+	
+	self assert: icon scaledForm dominantColor equals: Color red

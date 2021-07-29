@@ -1,5 +1,6 @@
 updating
 updateLayout
 
-	self extent: self extent;
+	self 
+		extent: self extent;
 		changed

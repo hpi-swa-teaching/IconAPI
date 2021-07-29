@@ -3,6 +3,7 @@ initialize
 
 	super initialize.
 	super color: Color transparent.
+	
 	self 
 		fetcher: MaterialIconsFetcher new;
 		isIconColorSet: false;
