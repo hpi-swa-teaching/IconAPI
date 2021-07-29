@@ -1,4 +1,4 @@
 accessing
-action: anAction
+action: aBlock
 
-	action := anAction
+	action := aBlock

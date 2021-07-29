@@ -1,4 +1,7 @@
 packages
 namedPackage: aString
-
-	^ PackageOrganizer default packageNamed: aString ifAbsent: [self error: aString , ' package is missing']
+	
+	|errorMessage|
+	
+	errorMessage := aString, ' package is missing'.
+	^ PackageOrganizer default packageNamed: aString ifAbsent: [self error: errorMessage]

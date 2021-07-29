@@ -1,12 +1,12 @@
 building
-buildListSpecWith: aBuilder
+buildListSpecWith: aToolBuilder
 
-	^ aBuilder pluggableListSpec new
+	^ aToolBuilder pluggableListSpec new
 		model: self;
 		list: #iconList;
 		getIndex: #iconIndex;
 		setIndex: #iconIndex:;
-		frame: (0.0@0 corner: 0.5@1);
+		frame: (0.0 @ 0 corner: 0.5 @ 1);
 		yourself
 		
 		

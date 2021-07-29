@@ -1,4 +1,4 @@
 constants
 minimumScaleFactor
 
-	^0.01
+	^ 0.01

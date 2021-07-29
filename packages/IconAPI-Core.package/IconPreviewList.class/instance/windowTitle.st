@@ -1,4 +1,4 @@
 accessing
 windowTitle
 
-	^ 'Icon List - ', iconFetcher class asString
+	^ 'Icon List - ', self iconFetcher class asString

@@ -1,9 +1,9 @@
 accessing
-id: anID 
+id: aString 
 
-	anID = 'default' 
-		ifTrue: [self setIconFrom: (Form fromBinaryStream:  (Base64MimeConverter mimeDecodeToBytes: (IconMorph default readStream)))] 
-		ifFalse: [self setIconFrom: (self fetcher getIconForm: anID)].
+	aString = 'default' 
+		ifTrue: [self setIconFrom: (Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self class default readStream))] 
+		ifFalse: [self setIconFrom: (self fetcher getIconFormWith: aString)].
 	self updateIconColor
 	
 	

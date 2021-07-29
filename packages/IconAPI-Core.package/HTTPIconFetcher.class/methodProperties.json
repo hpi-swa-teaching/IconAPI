@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"downloadFileWith:" : "LH 6/25/2021 12:09",
-		"fetchIconForm:" : "TF 7/15/2021 15:06",
-		"formFrom:" : "hw 6/21/2021 14:37",
+		"downloadFileWith:" : "alexander wischmann 7/28/2021 22:18",
+		"fetchIconFormWith:" : "alexander wischmann 7/29/2021 01:59",
+		"formFrom:" : "alexander wischmann 7/28/2021 22:18",
 		"initialize" : "hw 6/21/2021 14:30",
-		"processFile:with:" : "LH 6/24/2021 18:11",
+		"processFile:with:" : "alexander wischmann 7/28/2021 22:27",
 		"urlPrefix" : "hw 6/21/2021 14:00",
 		"urlSuffix" : "hw 6/21/2021 14:00" } }

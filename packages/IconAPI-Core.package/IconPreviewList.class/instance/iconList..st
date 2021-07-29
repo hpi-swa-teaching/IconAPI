@@ -1,4 +1,4 @@
 accessing
-iconList: aList
+iconList: aCollection
 
-	iconList := aList
+	iconList := aCollection

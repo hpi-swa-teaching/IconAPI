@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"directory" : "han 7/25/2021 19:38",
-		"downloadFileWith:" : "TF 7/15/2021 14:44",
-		"extract:from:" : "alexander wischmann 7/5/2021 12:42",
-		"getIconList" : "han 7/25/2021 19:39",
-		"processFile:with:" : "han 7/25/2021 19:39",
-		"searchVersion:" : "han 7/25/2021 19:39",
+		"directory" : "alexander wischmann 7/28/2021 22:39",
+		"downloadFileWith:" : "alexander wischmann 7/29/2021 02:00",
+		"extractFileNamed:from:" : "alexander wischmann 7/28/2021 22:39",
+		"getIconList" : "alexander wischmann 7/29/2021 02:00",
+		"processFile:with:" : "alexander wischmann 7/29/2021 02:02",
+		"searchVersionOf:" : "alexander wischmann 7/29/2021 02:05",
 		"urlPrefix" : "hw 6/23/2021 14:22",
 		"urlSuffix" : "LH 6/25/2021 12:53",
 		"useOutlined" : "hw 6/23/2021 14:35",

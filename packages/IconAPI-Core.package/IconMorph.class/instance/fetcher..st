@@ -1,4 +1,4 @@
 accessing
-fetcher: aFetcher
+fetcher: anIconFetchStrategy
 
-	fetcher := aFetcher
+	fetcher := anIconFetchStrategy

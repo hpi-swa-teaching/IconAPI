@@ -3,5 +3,5 @@ calculateAspectRatio
 
 	|gcd|
 	
-	gcd := self greatestCommonDivisor: (self originalForm extent).
-	^ (originalForm extent) / gcd
+	gcd := self greatestCommonDivisor: self originalForm extent.
+	^ originalForm extent / gcd

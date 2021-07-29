@@ -8,7 +8,7 @@ invertWithTransparency
 		|value alpha red green blue|
 		value := bitmap at: pixelIndex.
 		alpha := value bitShift: -24.
-		alpha >  0 ifTrue: [
+		alpha strictlyPositive ifTrue: [
 			red := 255 - ((value bitShift: -16) bitAnd: 255).
 			green := 255 - ((value bitShift: -8) bitAnd: 255).
 			blue := 255 - (value bitAnd: 255).

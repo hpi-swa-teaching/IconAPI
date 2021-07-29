@@ -8,7 +8,7 @@ setColorWithTransparency: aColor
 		|value alpha red green blue|
 		value := bitmap at: pixelIndex.
 		alpha := value bitShift: -24.
-		alpha >  0 ifTrue: [
+		alpha strictlyPositive ifTrue: [
 			red := (aColor red * 255) asInteger.
 			green := (aColor green * 255) asInteger.
 			blue := (aColor blue * 255) asInteger.

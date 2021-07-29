@@ -3,6 +3,6 @@ initialize
 	
 	super initialize.
 	
-	numberValue := 0
+	self numberValue: 0
 	
 

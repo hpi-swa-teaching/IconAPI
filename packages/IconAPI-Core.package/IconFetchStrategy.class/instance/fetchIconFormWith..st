@@ -1,4 +1,4 @@
 fetching
-fetchIconForm: anID
+fetchIconFormWith: aString
 
 	^ self subclassResponsibility
