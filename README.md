@@ -7,4 +7,4 @@ Group 3 SWT 2021
 
 ## Icon Erstellung
 
-![Icon Erstellen](images/Screenshot 2021-07-31 170527.png)
+![Icon Erstellen](https://github.com/hpi-swa-teaching/IconAPI/blob/339628a60bd998fc545d2fa4d066f43ffb1945c2/images/IconCreation.png)
