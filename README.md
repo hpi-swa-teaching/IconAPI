@@ -7,4 +7,4 @@ Group 3 SWT 2021
 
 ## Icon Erstellung
 
-[![Icon Erstellen](images/Screenshot 2021-07-31 170527.png)](images/Screenshot 2021-07-31 170527.png)
+![Icon Erstellen](images/Screenshot 2021-07-31 170527.png)
