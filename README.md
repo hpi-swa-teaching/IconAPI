@@ -24,7 +24,7 @@ In der IconAPI können einige Attribute bestimmt werden. So kann man zum Beispie
 
 ## Fetcher
 
-Die IconAPI unterstützt verschieden Fetcher. Zum jetzigen Zeitpunkt sind Interfaces für die Iconbibliotheken [MaterialIcons](https://fonts.google.com/icons) und [Icon-Icons](https://icon-icons.com/) implementiert. Der MaterialIconsfetcher ist dabei der Defaultfetcher. Im folgenden Bild kann man sehen, wie der ein anderer Fetcher zugeordnet werden kann. 
+Die IconAPI unterstützt verschieden Fetcher. Zum jetzigen Zeitpunkt sind Interfaces für die Iconbibliotheken [MaterialIcons](https://fonts.google.com/icons) und [Icon-Icons](https://icon-icons.com/) implementiert. Der MaterialIconsfetcher ist dabei der Defaultfetcher. Im folgenden Bild kann man sehen, wie ein anderer Fetcher zugeordnet werden kann. 
 Die Fetcher sind dabei unterteilt in den LocalFetcher und die HTTPIcon Fetcher, die beide mit dem Strategy Pattern von der Elternklasse IconFetchStrategy erben. Möchte man eine neue Bibliothek einbinden, so kann man einfach die Funktionalitäten des HTTPIconFetchers übernehmen.
 
 ![Fetcher-Switch](https://github.com/hpi-swa-teaching/IconAPI/blob/d845a6a8d1819feae998e1f1f8b31240c67810ab/images/fetcher_switch.png)
