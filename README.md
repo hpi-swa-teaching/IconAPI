@@ -13,4 +13,5 @@ Ein Icon wird über eine neue Instanziierung der IconMorph Klasse erstellt. Mit 
 ## Example Tool
 
 Als Anwendungsbeispiel des Toolbuilders, auf dem unsere IconApi beruht, haben wir ein Example Tool bereit gestellt, was wie folgt geöffnet wird.
+
 ![Example Tool Beispiel](https://github.com/hpi-swa-teaching/IconAPI/blob/0b3f374afc790671420c0a300c7aabddf1d91d5c/images/exampletool_creation.png)
