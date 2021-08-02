@@ -1,10 +1,10 @@
 A PluggableIconSpec is using the pluggableWidgetSpec functionality of the toolBuilder to create an icon by defining its specs.
 
 Instance Variables
-	aspectRatio:		<Object>
-	iconColor:		<Object>
-	id:		<Object>
-	inverted:		<Object>
+	aspectRatio:		<Point>
+	iconColor:		<Color>
+	id:		<String>
+	inverted:		<Boolean>
 
 aspectRatio
 	- is the width to height ratio of the icon
