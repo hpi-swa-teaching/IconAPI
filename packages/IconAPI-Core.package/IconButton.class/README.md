@@ -1,7 +1,7 @@
-An IconButton is a SimpleButtonMorph with almost the same functionality as specified in the ToolBuilder. In addition it provides the possibility to add an IconMorph to an IconButton as an image for the button.
+An IconButton is a SimpleButtonMorph with almost the same functionality as specified in the ToolBuilder. Different to the SimpleButtonMorph it has an IconMorph instead of a TextLabel as a submorph.
 
 Instance Variables
-	iconMorph:		<Object>
+	iconMorph:		<IconMorph>
 
 iconMorph
-	- the particular Icon you want to display within the IconButton
+	- the IconMorph displayed within the IconButton
