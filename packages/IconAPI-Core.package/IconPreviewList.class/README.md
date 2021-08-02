@@ -1,9 +1,9 @@
 An IconPreviewList shows a list of all id's of fetchable Icons for a certain fetcher.
 
 Instance Variables
-	iconFetcher:		<Object>
-	iconIndex:		<Object>
-	iconList:		<Object>
+	iconFetcher:		<IconFetchStrategy>
+	iconIndex:		<Integer>
+	iconList:		<Collection>
 
 iconFetcher
 	- the icon fetcher we want to show the list of id's for
